@@ -1,0 +1,2 @@
+'atom-text-editor':
+  'shift-alt-k': 'clang-format:format'

@@ -1,0 +1,75 @@
+{
+  "_from": "https://www.atom.io/api/packages/data-explorer/versions/0.7.0/tarball",
+  "_id": "data-explorer@0.7.0",
+  "_inBundle": false,
+  "_integrity": "sha512-dXQ9sfRy//E2zH3ua7dLSy3cPf2i/FCxEbVpYe3CdhrWJfntxFLjioTK4NYZ/Bl+H1YxtU7mGwLa+PhHiuW3jg==",
+  "_location": "/data-explorer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/data-explorer/versions/0.7.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/data-explorer/versions/0.7.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/data-explorer/versions/0.7.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/data-explorer/versions/0.7.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/data-explorer/versions/0.7.0/tarball",
+  "_shasum": "62bf53d5ee731831cfdfee7c8c1ef03ce0f5759c",
+  "_spec": "https://www.atom.io/api/packages/data-explorer/versions/0.7.0/tarball",
+  "_where": "/tmp/apm-install-dir-120321-31290-1mac4go.clgi",
+  "atomTestRunner": "atom-jasmine3-test-runner",
+  "bugs": {
+    "url": "https://github.com/benrussert/data-explorer/issues"
+  },
+  "bundleDependencies": false,
+  "consumedServices": {
+    "hydrogen.provider": {
+      "versions": {
+        "^1.2.0": "consumeHydrogen"
+      }
+    }
+  },
+  "dependencies": {
+    "@babel/runtime-corejs2": "^7.0.0",
+    "@nteract/data-explorer": "^7.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.1.3"
+  },
+  "deprecated": false,
+  "description": "Automatic data visualization with the nteract data-explorer",
+  "devDependencies": {
+    "atom-jasmine3-test-runner": "^4.0.0",
+    "flow-bin": "^0.102.0",
+    "prettier": "^1.13.5"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/benrussert/data-explorer#readme",
+  "keywords": [
+    "hydrogen",
+    "jupyter",
+    "nteract",
+    "pandas",
+    "data"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "data-explorer",
+  "package-deps": [
+    "hydrogen"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/benrussert/data-explorer.git"
+  },
+  "scripts": {
+    "flow": "flow",
+    "prettier": "prettier --write 'lib/**/*.js' 'spec/**/*.js'"
+  },
+  "version": "0.7.0"
+}

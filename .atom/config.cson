@@ -1,0 +1,55 @@
+"*":
+  "atom-beautify":
+    c:
+      configPath: "."
+      default_beautifier: "clang-format"
+    cpp:
+      configPath: "."
+      default_beautifier: "clang-format"
+  "autocomplete-clang":
+    "std c++": "c++11"
+  "clang-format": {}
+  core:
+    disabledPackages: [
+      "markdown-preview"
+    ]
+    packagesWithKeymapsDisabled: [
+      "clang-format"
+    ]
+    telemetryConsent: "no"
+  editor:
+    fontSize: 12
+    preferredLineLength: 140
+    tabLength: 4
+  "exception-reporting":
+    userId: "cf073067-d1e3-42e5-a934-e5630b911f89"
+  "gcc-make-run": {}
+  "git-blame":
+    columnWidth: 310
+  "gpp-compiler": {}
+  "linter-gcc":
+    gccDefaultCFlags: "-c -Wall -fsyntax-only"
+    gccDefaultCppFlags: "-c -Wall -std=c++11 -fsyntax-only"
+    gccIncludePaths: " .,./include"
+  "linter-ui-default": {}
+  "markdown-preview-plus":
+    importPackageStyles: [
+      "*"
+    ]
+    syntaxThemeName: "one-dark-syntax"
+    useGitHubStyle: true
+  "platformio-ide-terminal":
+    ansiColors:
+      normal:
+        blue: "#0010c3"
+      zBright:
+        brightBlue: "#0000d2"
+    style:
+      fontFamily: "PowerlineSymbols, Monospace"
+      fontSize: "13"
+      theme: "solarized-dark"
+  "vk-terminal":
+    core: {}
+    style:
+      theme: "solarized-dark"
+    toggles: {}

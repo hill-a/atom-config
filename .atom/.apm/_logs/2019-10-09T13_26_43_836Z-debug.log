@@ -1,0 +1,907 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/share/atom/resources/app/apm/bin/node',
+1 verbose cli   '/usr/share/atom/resources/app/apm/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   '--globalconfig',
+1 verbose cli   '/home/ah257962/.atom/.apm/.apmrc',
+1 verbose cli   '--userconfig',
+1 verbose cli   '/home/ah257962/.atom/.apmrc',
+1 verbose cli   'install',
+1 verbose cli   'https://www.atom.io/api/packages/term/versions/0.2.4/tarball',
+1 verbose cli   '--target=3.1.10',
+1 verbose cli   '--disturl=https://atom.io/download/electron',
+1 verbose cli   '--arch=x64',
+1 verbose cli   '--global-style' ]
+2 info using npm@6.2.0
+3 info using node@v10.2.1
+4 verbose npm-session 621c0063176e9ff2
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 200 https://www.atom.io/api/packages/term/versions/0.2.4/tarball 1213ms
+8 silly pacote remote manifest for undefined@https://www.atom.io/api/packages/term/versions/0.2.4/tarball fetched in 1226ms
+9 timing stage:loadCurrentTree Completed in 1350ms
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 timing stage:loadIdealTree:cloneCurrentTree Completed in 0ms
+13 silly install loadShrinkwrap
+14 timing stage:loadIdealTree:loadShrinkwrap Completed in 0ms
+15 silly install loadAllDepsIntoIdealTree
+16 silly resolveWithNewModule term@0.2.4 checking installable status
+17 http fetch GET 304 https://registry.npmjs.org/atom-space-pen-views 201ms (from cache)
+18 silly pacote range manifest for atom-space-pen-views@^2.0.3 fetched in 203ms
+19 silly resolveWithNewModule atom-space-pen-views@2.2.0 checking installable status
+20 http fetch GET 200 https://registry.npmjs.org/term.js 250ms
+21 http fetch GET 304 https://registry.npmjs.org/pty.js 253ms (from cache)
+22 http fetch GET 304 https://registry.npmjs.org/debounce 255ms (from cache)
+23 silly pacote version manifest for term.js@0.0.7 fetched in 257ms
+24 silly resolveWithNewModule term.js@0.0.7 checking installable status
+25 silly pacote version manifest for debounce@0.0.3 fetched in 257ms
+26 silly resolveWithNewModule debounce@0.0.3 checking installable status
+27 silly pacote range manifest for pty.js@^0.3.0 fetched in 259ms
+28 silly resolveWithNewModule pty.js@0.3.1 checking installable status
+29 http fetch GET 304 https://registry.npmjs.org/keypather 325ms (from cache)
+30 silly pacote range manifest for keypather@^1.3.2 fetched in 330ms
+31 silly resolveWithNewModule keypather@1.10.2 checking installable status
+32 http fetch GET 304 https://registry.npmjs.org/fuzzaldrin 51ms (from cache)
+33 silly pacote range manifest for fuzzaldrin@^2.1.0 fetched in 52ms
+34 silly resolveWithNewModule fuzzaldrin@2.1.0 checking installable status
+35 http fetch GET 304 https://registry.npmjs.org/space-pen 48ms (from cache)
+36 silly pacote range manifest for space-pen@^5.1.2 fetched in 50ms
+37 silly resolveWithNewModule space-pen@5.1.2 checking installable status
+38 http fetch GET 304 https://registry.npmjs.org/underscore-plus 53ms (from cache)
+39 silly pacote range manifest for underscore-plus@1.x fetched in 54ms
+40 silly resolveWithNewModule underscore-plus@1.7.0 checking installable status
+41 http fetch GET 304 https://registry.npmjs.org/grim 56ms (from cache)
+42 silly pacote range manifest for grim@^1.0.0 fetched in 57ms
+43 silly resolveWithNewModule grim@1.5.0 checking installable status
+44 http fetch GET 304 https://registry.npmjs.org/jquery 56ms (from cache)
+45 silly pacote version manifest for jquery@2.1.4 fetched in 58ms
+46 silly resolveWithNewModule jquery@2.1.4 checking installable status
+47 http fetch GET 304 https://registry.npmjs.org/emissary 38ms (from cache)
+48 silly pacote range manifest for emissary@^1.2.0 fetched in 40ms
+49 silly resolveWithNewModule emissary@1.3.3 checking installable status
+50 http fetch GET 304 https://registry.npmjs.org/es6-weak-map 48ms (from cache)
+51 silly pacote range manifest for es6-weak-map@^0.1.2 fetched in 49ms
+52 silly resolveWithNewModule es6-weak-map@0.1.4 checking installable status
+53 http fetch GET 304 https://registry.npmjs.org/property-accessors 54ms (from cache)
+54 silly pacote range manifest for property-accessors@^1.1 fetched in 55ms
+55 silly resolveWithNewModule property-accessors@1.1.3 checking installable status
+56 http fetch GET 304 https://registry.npmjs.org/mixto 58ms (from cache)
+57 silly pacote range manifest for mixto@1.x fetched in 59ms
+58 silly resolveWithNewModule mixto@1.0.0 checking installable status
+59 http fetch GET 304 https://registry.npmjs.org/es6-iterator 59ms (from cache)
+60 http fetch GET 304 https://registry.npmjs.org/es5-ext 61ms (from cache)
+61 silly pacote range manifest for es6-iterator@~0.1.3 fetched in 62ms
+62 silly resolveWithNewModule es6-iterator@0.1.3 checking installable status
+63 silly pacote range manifest for es5-ext@~0.10.6 fetched in 64ms
+64 silly resolveWithNewModule es5-ext@0.10.51 checking installable status
+65 http fetch GET 304 https://registry.npmjs.org/d 65ms (from cache)
+66 http fetch GET 304 https://registry.npmjs.org/es6-symbol 65ms (from cache)
+67 silly pacote range manifest for d@~0.1.1 fetched in 67ms
+68 silly resolveWithNewModule d@0.1.1 checking installable status
+69 silly pacote range manifest for es6-symbol@~2.0.1 fetched in 67ms
+70 silly resolveWithNewModule es6-symbol@2.0.1 checking installable status
+71 silly pacote range manifest for es6-iterator@~2.0.3 fetched in 3ms
+72 silly resolveWithNewModule es6-iterator@2.0.3 checking installable status
+73 silly pacote range manifest for es6-symbol@~3.1.1 fetched in 3ms
+74 silly resolveWithNewModule es6-symbol@3.1.2 checking installable status
+75 http fetch GET 304 https://registry.npmjs.org/next-tick 36ms (from cache)
+76 silly pacote range manifest for next-tick@^1.0.0 fetched in 37ms
+77 silly resolveWithNewModule next-tick@1.0.0 checking installable status
+78 silly pacote range manifest for d@1 fetched in 1ms
+79 silly resolveWithNewModule d@1.0.1 checking installable status
+80 http fetch GET 304 https://registry.npmjs.org/type 27ms (from cache)
+81 silly pacote range manifest for type@^1.0.1 fetched in 28ms
+82 silly resolveWithNewModule type@1.2.0 checking installable status
+83 http fetch GET 304 https://registry.npmjs.org/underscore 45ms (from cache)
+84 silly pacote range manifest for underscore@^1.9.1 fetched in 49ms
+85 silly resolveWithNewModule underscore@1.9.1 checking installable status
+86 http fetch GET 304 https://registry.npmjs.org/101 43ms (from cache)
+87 silly pacote range manifest for 101@^1.0.0 fetched in 45ms
+88 silly resolveWithNewModule 101@1.6.3 checking installable status
+89 http fetch GET 304 https://registry.npmjs.org/deep-eql 32ms (from cache)
+90 silly pacote range manifest for deep-eql@^0.1.3 fetched in 34ms
+91 silly resolveWithNewModule deep-eql@0.1.3 checking installable status
+92 http fetch GET 304 https://registry.npmjs.org/clone 109ms (from cache)
+93 silly pacote range manifest for clone@^1.0.2 fetched in 114ms
+94 silly resolveWithNewModule clone@1.0.4 checking installable status
+95 http fetch GET 304 https://registry.npmjs.org/type-detect 49ms (from cache)
+96 silly pacote version manifest for type-detect@0.1.1 fetched in 51ms
+97 silly resolveWithNewModule type-detect@0.1.1 checking installable status
+98 http fetch GET 304 https://registry.npmjs.org/nan 25ms (from cache)
+99 http fetch GET 304 https://registry.npmjs.org/extend 31ms (from cache)
+100 silly pacote range manifest for extend@~1.2.1 fetched in 32ms
+101 silly resolveWithNewModule extend@1.2.1 checking installable status
+102 http fetch GET 200 https://registry.npmjs.org/nan/-/nan-2.3.5.tgz 40ms
+103 silly pacote version manifest for nan@2.3.5 fetched in 69ms
+104 silly resolveWithNewModule nan@2.3.5 checking installable status
+105 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 1073ms
+106 timing stage:loadIdealTree Completed in 1087ms
+107 silly currentTree apm-install-dir-11999-14638-27jqxo.g4ux2
+108 silly idealTree apm-install-dir-11999-14638-27jqxo.g4ux2
+108 silly idealTree └─┬ term@0.2.4
+108 silly idealTree   ├── 101@1.6.3
+108 silly idealTree   ├── atom-space-pen-views@2.2.0
+108 silly idealTree   ├── clone@1.0.4
+108 silly idealTree   ├── d@0.1.1
+108 silly idealTree   ├── debounce@0.0.3
+108 silly idealTree   ├── deep-eql@0.1.3
+108 silly idealTree   ├── emissary@1.3.3
+108 silly idealTree   ├─┬ es5-ext@0.10.51
+108 silly idealTree   │ ├── d@1.0.1
+108 silly idealTree   │ ├── es6-iterator@2.0.3
+108 silly idealTree   │ └── es6-symbol@3.1.2
+108 silly idealTree   ├── es6-iterator@0.1.3
+108 silly idealTree   ├── es6-symbol@2.0.1
+108 silly idealTree   ├── es6-weak-map@0.1.4
+108 silly idealTree   ├── extend@1.2.1
+108 silly idealTree   ├── fuzzaldrin@2.1.0
+108 silly idealTree   ├── grim@1.5.0
+108 silly idealTree   ├── jquery@2.1.4
+108 silly idealTree   ├── keypather@1.10.2
+108 silly idealTree   ├── mixto@1.0.0
+108 silly idealTree   ├── nan@2.3.5
+108 silly idealTree   ├── next-tick@1.0.0
+108 silly idealTree   ├── property-accessors@1.1.3
+108 silly idealTree   ├── pty.js@0.3.1
+108 silly idealTree   ├── space-pen@5.1.2
+108 silly idealTree   ├── term.js@0.0.7
+108 silly idealTree   ├── type-detect@0.1.1
+108 silly idealTree   ├── type@1.2.0
+108 silly idealTree   ├── underscore-plus@1.7.0
+108 silly idealTree   └── underscore@1.9.1
+109 silly install generateActionsToTake
+110 silly diff-trees filtering actions: includeDev false includeProd true includeOpt true
+111 timing stage:generateActionsToTake Completed in 10ms
+112 silly diffTrees action count 31
+113 silly diffTrees add clone@1.0.4
+114 silly diffTrees add extend@1.2.1
+115 silly diffTrees add fuzzaldrin@2.1.0
+116 silly diffTrees add jquery@2.1.4
+117 silly diffTrees add mixto@1.0.0
+118 silly diffTrees add nan@2.3.5
+119 silly diffTrees add next-tick@1.0.0
+120 silly diffTrees add type@1.2.0
+121 silly diffTrees add d@1.0.1
+122 silly diffTrees add es6-symbol@3.1.2
+123 silly diffTrees add es6-iterator@2.0.3
+124 silly diffTrees add es5-ext@0.10.51
+125 silly diffTrees add d@0.1.1
+126 silly diffTrees add es6-symbol@2.0.1
+127 silly diffTrees add es6-iterator@0.1.3
+128 silly diffTrees add es6-weak-map@0.1.4
+129 silly diffTrees add property-accessors@1.1.3
+130 silly diffTrees add type-detect@0.1.1
+131 silly diffTrees add deep-eql@0.1.3
+132 silly diffTrees add 101@1.6.3
+133 silly diffTrees add keypather@1.10.2
+134 silly diffTrees add underscore@1.9.1
+135 silly diffTrees add underscore-plus@1.7.0
+136 silly diffTrees add emissary@1.3.3
+137 silly diffTrees add grim@1.5.0
+138 silly diffTrees add space-pen@5.1.2
+139 silly diffTrees add atom-space-pen-views@2.2.0
+140 silly diffTrees add debounce@0.0.3
+141 silly diffTrees add pty.js@0.3.1
+142 silly diffTrees add term.js@0.0.7
+143 silly diffTrees add term@0.2.4
+144 silly decomposeActions action count 248
+145 silly decomposeActions fetch clone@1.0.4
+146 silly decomposeActions extract clone@1.0.4
+147 silly decomposeActions preinstall clone@1.0.4
+148 silly decomposeActions build clone@1.0.4
+149 silly decomposeActions install clone@1.0.4
+150 silly decomposeActions postinstall clone@1.0.4
+151 silly decomposeActions finalize clone@1.0.4
+152 silly decomposeActions refresh-package-json clone@1.0.4
+153 silly decomposeActions fetch extend@1.2.1
+154 silly decomposeActions extract extend@1.2.1
+155 silly decomposeActions preinstall extend@1.2.1
+156 silly decomposeActions build extend@1.2.1
+157 silly decomposeActions install extend@1.2.1
+158 silly decomposeActions postinstall extend@1.2.1
+159 silly decomposeActions finalize extend@1.2.1
+160 silly decomposeActions refresh-package-json extend@1.2.1
+161 silly decomposeActions fetch fuzzaldrin@2.1.0
+162 silly decomposeActions extract fuzzaldrin@2.1.0
+163 silly decomposeActions preinstall fuzzaldrin@2.1.0
+164 silly decomposeActions build fuzzaldrin@2.1.0
+165 silly decomposeActions install fuzzaldrin@2.1.0
+166 silly decomposeActions postinstall fuzzaldrin@2.1.0
+167 silly decomposeActions finalize fuzzaldrin@2.1.0
+168 silly decomposeActions refresh-package-json fuzzaldrin@2.1.0
+169 silly decomposeActions fetch jquery@2.1.4
+170 silly decomposeActions extract jquery@2.1.4
+171 silly decomposeActions preinstall jquery@2.1.4
+172 silly decomposeActions build jquery@2.1.4
+173 silly decomposeActions install jquery@2.1.4
+174 silly decomposeActions postinstall jquery@2.1.4
+175 silly decomposeActions finalize jquery@2.1.4
+176 silly decomposeActions refresh-package-json jquery@2.1.4
+177 silly decomposeActions fetch mixto@1.0.0
+178 silly decomposeActions extract mixto@1.0.0
+179 silly decomposeActions preinstall mixto@1.0.0
+180 silly decomposeActions build mixto@1.0.0
+181 silly decomposeActions install mixto@1.0.0
+182 silly decomposeActions postinstall mixto@1.0.0
+183 silly decomposeActions finalize mixto@1.0.0
+184 silly decomposeActions refresh-package-json mixto@1.0.0
+185 silly decomposeActions fetch nan@2.3.5
+186 silly decomposeActions extract nan@2.3.5
+187 silly decomposeActions preinstall nan@2.3.5
+188 silly decomposeActions build nan@2.3.5
+189 silly decomposeActions install nan@2.3.5
+190 silly decomposeActions postinstall nan@2.3.5
+191 silly decomposeActions finalize nan@2.3.5
+192 silly decomposeActions refresh-package-json nan@2.3.5
+193 silly decomposeActions fetch next-tick@1.0.0
+194 silly decomposeActions extract next-tick@1.0.0
+195 silly decomposeActions preinstall next-tick@1.0.0
+196 silly decomposeActions build next-tick@1.0.0
+197 silly decomposeActions install next-tick@1.0.0
+198 silly decomposeActions postinstall next-tick@1.0.0
+199 silly decomposeActions finalize next-tick@1.0.0
+200 silly decomposeActions refresh-package-json next-tick@1.0.0
+201 silly decomposeActions fetch type@1.2.0
+202 silly decomposeActions extract type@1.2.0
+203 silly decomposeActions preinstall type@1.2.0
+204 silly decomposeActions build type@1.2.0
+205 silly decomposeActions install type@1.2.0
+206 silly decomposeActions postinstall type@1.2.0
+207 silly decomposeActions finalize type@1.2.0
+208 silly decomposeActions refresh-package-json type@1.2.0
+209 silly decomposeActions fetch d@1.0.1
+210 silly decomposeActions extract d@1.0.1
+211 silly decomposeActions preinstall d@1.0.1
+212 silly decomposeActions build d@1.0.1
+213 silly decomposeActions install d@1.0.1
+214 silly decomposeActions postinstall d@1.0.1
+215 silly decomposeActions finalize d@1.0.1
+216 silly decomposeActions refresh-package-json d@1.0.1
+217 silly decomposeActions fetch es6-symbol@3.1.2
+218 silly decomposeActions extract es6-symbol@3.1.2
+219 silly decomposeActions preinstall es6-symbol@3.1.2
+220 silly decomposeActions build es6-symbol@3.1.2
+221 silly decomposeActions install es6-symbol@3.1.2
+222 silly decomposeActions postinstall es6-symbol@3.1.2
+223 silly decomposeActions finalize es6-symbol@3.1.2
+224 silly decomposeActions refresh-package-json es6-symbol@3.1.2
+225 silly decomposeActions fetch es6-iterator@2.0.3
+226 silly decomposeActions extract es6-iterator@2.0.3
+227 silly decomposeActions preinstall es6-iterator@2.0.3
+228 silly decomposeActions build es6-iterator@2.0.3
+229 silly decomposeActions install es6-iterator@2.0.3
+230 silly decomposeActions postinstall es6-iterator@2.0.3
+231 silly decomposeActions finalize es6-iterator@2.0.3
+232 silly decomposeActions refresh-package-json es6-iterator@2.0.3
+233 silly decomposeActions fetch es5-ext@0.10.51
+234 silly decomposeActions extract es5-ext@0.10.51
+235 silly decomposeActions preinstall es5-ext@0.10.51
+236 silly decomposeActions build es5-ext@0.10.51
+237 silly decomposeActions install es5-ext@0.10.51
+238 silly decomposeActions postinstall es5-ext@0.10.51
+239 silly decomposeActions finalize es5-ext@0.10.51
+240 silly decomposeActions refresh-package-json es5-ext@0.10.51
+241 silly decomposeActions fetch d@0.1.1
+242 silly decomposeActions extract d@0.1.1
+243 silly decomposeActions preinstall d@0.1.1
+244 silly decomposeActions build d@0.1.1
+245 silly decomposeActions install d@0.1.1
+246 silly decomposeActions postinstall d@0.1.1
+247 silly decomposeActions finalize d@0.1.1
+248 silly decomposeActions refresh-package-json d@0.1.1
+249 silly decomposeActions fetch es6-symbol@2.0.1
+250 silly decomposeActions extract es6-symbol@2.0.1
+251 silly decomposeActions preinstall es6-symbol@2.0.1
+252 silly decomposeActions build es6-symbol@2.0.1
+253 silly decomposeActions install es6-symbol@2.0.1
+254 silly decomposeActions postinstall es6-symbol@2.0.1
+255 silly decomposeActions finalize es6-symbol@2.0.1
+256 silly decomposeActions refresh-package-json es6-symbol@2.0.1
+257 silly decomposeActions fetch es6-iterator@0.1.3
+258 silly decomposeActions extract es6-iterator@0.1.3
+259 silly decomposeActions preinstall es6-iterator@0.1.3
+260 silly decomposeActions build es6-iterator@0.1.3
+261 silly decomposeActions install es6-iterator@0.1.3
+262 silly decomposeActions postinstall es6-iterator@0.1.3
+263 silly decomposeActions finalize es6-iterator@0.1.3
+264 silly decomposeActions refresh-package-json es6-iterator@0.1.3
+265 silly decomposeActions fetch es6-weak-map@0.1.4
+266 silly decomposeActions extract es6-weak-map@0.1.4
+267 silly decomposeActions preinstall es6-weak-map@0.1.4
+268 silly decomposeActions build es6-weak-map@0.1.4
+269 silly decomposeActions install es6-weak-map@0.1.4
+270 silly decomposeActions postinstall es6-weak-map@0.1.4
+271 silly decomposeActions finalize es6-weak-map@0.1.4
+272 silly decomposeActions refresh-package-json es6-weak-map@0.1.4
+273 silly decomposeActions fetch property-accessors@1.1.3
+274 silly decomposeActions extract property-accessors@1.1.3
+275 silly decomposeActions preinstall property-accessors@1.1.3
+276 silly decomposeActions build property-accessors@1.1.3
+277 silly decomposeActions install property-accessors@1.1.3
+278 silly decomposeActions postinstall property-accessors@1.1.3
+279 silly decomposeActions finalize property-accessors@1.1.3
+280 silly decomposeActions refresh-package-json property-accessors@1.1.3
+281 silly decomposeActions fetch type-detect@0.1.1
+282 silly decomposeActions extract type-detect@0.1.1
+283 silly decomposeActions preinstall type-detect@0.1.1
+284 silly decomposeActions build type-detect@0.1.1
+285 silly decomposeActions install type-detect@0.1.1
+286 silly decomposeActions postinstall type-detect@0.1.1
+287 silly decomposeActions finalize type-detect@0.1.1
+288 silly decomposeActions refresh-package-json type-detect@0.1.1
+289 silly decomposeActions fetch deep-eql@0.1.3
+290 silly decomposeActions extract deep-eql@0.1.3
+291 silly decomposeActions preinstall deep-eql@0.1.3
+292 silly decomposeActions build deep-eql@0.1.3
+293 silly decomposeActions install deep-eql@0.1.3
+294 silly decomposeActions postinstall deep-eql@0.1.3
+295 silly decomposeActions finalize deep-eql@0.1.3
+296 silly decomposeActions refresh-package-json deep-eql@0.1.3
+297 silly decomposeActions fetch 101@1.6.3
+298 silly decomposeActions extract 101@1.6.3
+299 silly decomposeActions preinstall 101@1.6.3
+300 silly decomposeActions build 101@1.6.3
+301 silly decomposeActions install 101@1.6.3
+302 silly decomposeActions postinstall 101@1.6.3
+303 silly decomposeActions finalize 101@1.6.3
+304 silly decomposeActions refresh-package-json 101@1.6.3
+305 silly decomposeActions fetch keypather@1.10.2
+306 silly decomposeActions extract keypather@1.10.2
+307 silly decomposeActions preinstall keypather@1.10.2
+308 silly decomposeActions build keypather@1.10.2
+309 silly decomposeActions install keypather@1.10.2
+310 silly decomposeActions postinstall keypather@1.10.2
+311 silly decomposeActions finalize keypather@1.10.2
+312 silly decomposeActions refresh-package-json keypather@1.10.2
+313 silly decomposeActions fetch underscore@1.9.1
+314 silly decomposeActions extract underscore@1.9.1
+315 silly decomposeActions preinstall underscore@1.9.1
+316 silly decomposeActions build underscore@1.9.1
+317 silly decomposeActions install underscore@1.9.1
+318 silly decomposeActions postinstall underscore@1.9.1
+319 silly decomposeActions finalize underscore@1.9.1
+320 silly decomposeActions refresh-package-json underscore@1.9.1
+321 silly decomposeActions fetch underscore-plus@1.7.0
+322 silly decomposeActions extract underscore-plus@1.7.0
+323 silly decomposeActions preinstall underscore-plus@1.7.0
+324 silly decomposeActions build underscore-plus@1.7.0
+325 silly decomposeActions install underscore-plus@1.7.0
+326 silly decomposeActions postinstall underscore-plus@1.7.0
+327 silly decomposeActions finalize underscore-plus@1.7.0
+328 silly decomposeActions refresh-package-json underscore-plus@1.7.0
+329 silly decomposeActions fetch emissary@1.3.3
+330 silly decomposeActions extract emissary@1.3.3
+331 silly decomposeActions preinstall emissary@1.3.3
+332 silly decomposeActions build emissary@1.3.3
+333 silly decomposeActions install emissary@1.3.3
+334 silly decomposeActions postinstall emissary@1.3.3
+335 silly decomposeActions finalize emissary@1.3.3
+336 silly decomposeActions refresh-package-json emissary@1.3.3
+337 silly decomposeActions fetch grim@1.5.0
+338 silly decomposeActions extract grim@1.5.0
+339 silly decomposeActions preinstall grim@1.5.0
+340 silly decomposeActions build grim@1.5.0
+341 silly decomposeActions install grim@1.5.0
+342 silly decomposeActions postinstall grim@1.5.0
+343 silly decomposeActions finalize grim@1.5.0
+344 silly decomposeActions refresh-package-json grim@1.5.0
+345 silly decomposeActions fetch space-pen@5.1.2
+346 silly decomposeActions extract space-pen@5.1.2
+347 silly decomposeActions preinstall space-pen@5.1.2
+348 silly decomposeActions build space-pen@5.1.2
+349 silly decomposeActions install space-pen@5.1.2
+350 silly decomposeActions postinstall space-pen@5.1.2
+351 silly decomposeActions finalize space-pen@5.1.2
+352 silly decomposeActions refresh-package-json space-pen@5.1.2
+353 silly decomposeActions fetch atom-space-pen-views@2.2.0
+354 silly decomposeActions extract atom-space-pen-views@2.2.0
+355 silly decomposeActions preinstall atom-space-pen-views@2.2.0
+356 silly decomposeActions build atom-space-pen-views@2.2.0
+357 silly decomposeActions install atom-space-pen-views@2.2.0
+358 silly decomposeActions postinstall atom-space-pen-views@2.2.0
+359 silly decomposeActions finalize atom-space-pen-views@2.2.0
+360 silly decomposeActions refresh-package-json atom-space-pen-views@2.2.0
+361 silly decomposeActions fetch debounce@0.0.3
+362 silly decomposeActions extract debounce@0.0.3
+363 silly decomposeActions preinstall debounce@0.0.3
+364 silly decomposeActions build debounce@0.0.3
+365 silly decomposeActions install debounce@0.0.3
+366 silly decomposeActions postinstall debounce@0.0.3
+367 silly decomposeActions finalize debounce@0.0.3
+368 silly decomposeActions refresh-package-json debounce@0.0.3
+369 silly decomposeActions fetch pty.js@0.3.1
+370 silly decomposeActions extract pty.js@0.3.1
+371 silly decomposeActions preinstall pty.js@0.3.1
+372 silly decomposeActions build pty.js@0.3.1
+373 silly decomposeActions install pty.js@0.3.1
+374 silly decomposeActions postinstall pty.js@0.3.1
+375 silly decomposeActions finalize pty.js@0.3.1
+376 silly decomposeActions refresh-package-json pty.js@0.3.1
+377 silly decomposeActions fetch term.js@0.0.7
+378 silly decomposeActions extract term.js@0.0.7
+379 silly decomposeActions preinstall term.js@0.0.7
+380 silly decomposeActions build term.js@0.0.7
+381 silly decomposeActions install term.js@0.0.7
+382 silly decomposeActions postinstall term.js@0.0.7
+383 silly decomposeActions finalize term.js@0.0.7
+384 silly decomposeActions refresh-package-json term.js@0.0.7
+385 silly decomposeActions fetch term@0.2.4
+386 silly decomposeActions extract term@0.2.4
+387 silly decomposeActions preinstall term@0.2.4
+388 silly decomposeActions build term@0.2.4
+389 silly decomposeActions install term@0.2.4
+390 silly decomposeActions postinstall term@0.2.4
+391 silly decomposeActions finalize term@0.2.4
+392 silly decomposeActions refresh-package-json term@0.2.4
+393 silly install executeActions
+394 silly doSerial global-install 248
+395 verbose correctMkdir /home/ah257962/.atom/.apm/_locks correctMkdir not in flight; initializing
+396 timing audit compress Completed in 1ms
+397 info audit Submitting payload of 2007bytes
+398 verbose lock using /home/ah257962/.atom/.apm/_locks/staging-9ad625ebfeaf8264.lock for /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/.staging
+399 silly doParallel extract 31
+400 silly extract clone@1.0.4
+401 silly extract extend@1.2.1
+402 silly extract fuzzaldrin@2.1.0
+403 silly extract jquery@2.1.4
+404 silly extract mixto@1.0.0
+405 silly extract nan@2.3.5
+406 silly extract next-tick@1.0.0
+407 silly extract type@1.2.0
+408 silly extract d@1.0.1
+409 silly extract es6-symbol@3.1.2
+410 silly extract es6-iterator@2.0.3
+411 silly extract es5-ext@0.10.51
+412 silly extract d@0.1.1
+413 silly extract es6-symbol@2.0.1
+414 silly extract es6-iterator@0.1.3
+415 silly extract es6-weak-map@0.1.4
+416 silly extract property-accessors@1.1.3
+417 silly extract type-detect@0.1.1
+418 silly extract deep-eql@0.1.3
+419 silly extract 101@1.6.3
+420 silly extract keypather@1.10.2
+421 silly extract underscore@1.9.1
+422 silly extract underscore-plus@1.7.0
+423 silly extract emissary@1.3.3
+424 silly extract grim@1.5.0
+425 silly extract space-pen@5.1.2
+426 silly extract atom-space-pen-views@2.2.0
+427 silly extract debounce@0.0.3
+428 silly extract pty.js@0.3.1
+429 silly extract term.js@0.0.7
+430 silly extract term@0.2.4
+431 silly tarball trying clone@^1.0.2 by hash: sha1-2jCcwmPfFZlMaIypAheco8fNfH4=
+432 silly tarball trying extend@~1.2.1 by hash: sha1-oPX9bPyDpf5J72mNYOyKYk3UV2w=
+433 silly tarball trying fuzzaldrin@^2.1.0 by hash: sha1-kCBMPi/appQbso0WZF1BgGOpDps=
+434 silly tarball trying jquery@2.1.4 by hash: sha1-IoveaYoMYUMdwmMKahVPFYkNIxc=
+435 silly tarball trying mixto@1.x by hash: sha1-wyDvYbUvKJj1IuF9i7xtUG2EJbY=
+436 silly tarball trying nan@2.3.5 by hash: sha1-gioNwmYpDOTNOhIoLKPn42Rmigg=
+437 silly tarball trying next-tick@^1.0.0 by hash: sha1-yobR/ogoFpsBICCOPchCS524NCw=
+438 silly tarball trying type@^1.0.1 by hash: sha512-+5nt5AAniqsCnu2cEQQdpzCAh33kVx8n0VoFidKpB1dVVLAN/F+bgVOqOJqOnEnrhp222clB5p3vUlD+1QAnfg==
+439 silly tarball trying d@1 by hash: sha512-m62ShEObQ39CfralilEQRjH6oAMtNCV1xJyEx5LpRYUVN+EviphDgUc/F3hnYbADmkiNs67Y+3ylmlG7Lnu+FA==
+440 silly tarball trying es6-symbol@~3.1.1 by hash: sha512-/ZypxQsArlv+KHpGvng52/Iz8by3EQPxhmbuz8yFG89N/caTFBSbcXONDw0aMjy827gQg26XAjP4uXFvnfINmQ==
+441 silly tarball trying es6-iterator@~2.0.3 by hash: sha1-p96IkUGgWpSwhUQDstCg+/qY87c=
+442 silly tarball trying es5-ext@~0.10.6 by hash: sha512-oRpWzM2WcLHVKpnrcyB7OW8j/s67Ba04JCm0WnNv3RiABSvs7mrQlutB8DBv793gKcp0XENR8Il8WxGTlZ73gQ==
+443 silly tarball trying d@~0.1.1 by hash: sha1-2hhMU10Y2O57oqoim5FACfrhEwk=
+444 silly tarball trying es6-symbol@~2.0.1 by hash: sha1-dhtcZ8/U8dGK+yNPaR1nhoLLO/M=
+445 silly tarball trying es6-iterator@~0.1.3 by hash: sha1-1vWLjE/EE8JJtLqhl2j45NfIlE4=
+446 silly tarball trying es6-weak-map@^0.1.2 by hash: sha1-cGzvnpmqI2undmwjnIueKG6n0ig=
+447 silly tarball trying property-accessors@^1.1 by hash: sha1-Hd6EAkYxhlkJ7zBwM2VoDF+SixU=
+448 silly tarball trying type-detect@0.1.1 by hash: sha1-C6XsKohWQORw6k6FBZcZANrFiCI=
+449 silly tarball trying deep-eql@^0.1.3 by hash: sha1-71WKyrjeJSBs1xOQbXTlaTDrafI=
+450 silly tarball trying 101@^1.0.0 by hash: sha512-4dmQ45yY0Dx24Qxp+zAsNLlMF6tteCyfVzgbulvSyC7tCyd3V8sW76sS0tHq8NpcbXfWTKasfyfzU1Kd86oKzw==
+451 silly tarball trying keypather@^1.3.2 by hash: sha1-4ESWMtSz5RbyHMAUznxWRP3c5hQ=
+452 silly tarball trying underscore@^1.9.1 by hash: sha512-5/4etnCkd9c8gwgowi5/om/mYO5ajCaOgdzj/oW+0eQV9WxKBDZw5+ycmKmeaTXjInS/W0BzpGLo2xR2aBwZdg==
+453 silly tarball trying underscore-plus@1.x by hash: sha512-A3BEzkeicFLnr+U/Q3EyWwJAQPbA19mtZZ4h+lLq3ttm9kn8WC4R3YpuJZEXmWdLjYP47Zc8aLZm9kwdv+zzvA==
+454 silly tarball trying emissary@^1.2.0 by hash: sha1-phjZLWgrIy0xER3DYlpd9mF5lgY=
+455 silly tarball trying grim@^1.0.0 by hash: sha1-sysI71Z88YUvgXWe2caLDXE5ajI=
+456 silly tarball trying space-pen@^5.1.2 by hash: sha1-Ivu+EOCwROe3pHsCPamdlLWE748=
+457 silly tarball trying atom-space-pen-views@^2.0.3 by hash: sha1-plsskg7QL3JAFPp9Plw9ePv1mZc=
+458 silly tarball trying debounce@0.0.3 by hash: sha1-QkGn+/zoEalKF4Bp5eJQv4t1yIY=
+459 silly tarball trying pty.js@^0.3.0 by hash: sha1-gfW+0zLW5eeraFaI0boDc0ENUbU=
+460 silly tarball trying term.js@0.0.7 by hash: sha1-Um8kz8Dy72+A9RfJ4n2ulHvIcxU=
+461 silly tarball trying https://www.atom.io/api/packages/term/versions/0.2.4/tarball by hash: sha512-lYsc69cq4jCmKMHOSbSIwyBMK/FXjz+dQRlin8Mn37YWb/wKpoQpiBBFSafx3N5+1UXR+L93wDmKDKOPxLk0Ow==
+462 silly tarball no local data for pty.js@^0.3.0. Extracting by manifest.
+463 silly tarball no local data for term.js@0.0.7. Extracting by manifest.
+464 silly tarball no local data for https://www.atom.io/api/packages/term/versions/0.2.4/tarball. Extracting by manifest.
+465 silly extract extend@~1.2.1 extracted to /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/.staging/extend-e341a8f7 (138ms)
+466 silly extract clone@^1.0.2 extracted to /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/.staging/clone-b30c69eb (139ms)
+467 silly extract mixto@1.x extracted to /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/.staging/mixto-142ea12e (137ms)
+468 silly extract property-accessors@^1.1 extracted to /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/.staging/property-accessors-c9e718ea (133ms)
+469 silly extract grim@^1.0.0 extracted to /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/.staging/grim-e766ef88 (132ms)
+470 silly extract type-detect@0.1.1 extracted to /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/.staging/type-detect-4f8e097f (140ms)
+471 silly extract underscore-plus@1.x extracted to /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/.staging/underscore-plus-8145dd21 (138ms)
+472 silly extract deep-eql@^0.1.3 extracted to /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/.staging/deep-eql-3b582970 (148ms)
+473 silly extract debounce@0.0.3 extracted to /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/.staging/debounce-42c6003e (143ms)
+474 silly extract fuzzaldrin@^2.1.0 extracted to /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/.staging/fuzzaldrin-dcf3ac9a (154ms)
+475 silly extract space-pen@^5.1.2 extracted to /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/.staging/space-pen-f52c4714 (145ms)
+476 silly extract next-tick@^1.0.0 extracted to /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/.staging/next-tick-a3b207cd (155ms)
+477 silly extract atom-space-pen-views@^2.0.3 extracted to /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/.staging/atom-space-pen-views-f3e4636f (152ms)
+478 silly extract d@~0.1.1 extracted to /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/.staging/d-1e84f526 (161ms)
+479 silly extract underscore@^1.9.1 extracted to /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/.staging/underscore-6935dbe1 (158ms)
+480 silly extract d@1 extracted to /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/.staging/d-c7fd381a (164ms)
+481 silly extract emissary@^1.2.0 extracted to /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/.staging/emissary-0d061eed (160ms)
+482 silly extract es6-symbol@~2.0.1 extracted to /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/.staging/es6-symbol-0af06f12 (171ms)
+483 silly extract es6-weak-map@^0.1.2 extracted to /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/.staging/es6-weak-map-c1a846b1 (170ms)
+484 http fetch GET 200 https://registry.npmjs.org/term.js/-/term.js-0.0.7.tgz 69ms
+485 silly extract keypather@^1.3.2 extracted to /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/.staging/keypather-301fe9f0 (173ms)
+486 silly extract es6-iterator@~0.1.3 extracted to /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/.staging/es6-iterator-38b0f1ce (175ms)
+487 http fetch GET 200 https://registry.npmjs.org/pty.js/-/pty.js-0.3.1.tgz 74ms
+488 silly extract es6-symbol@~3.1.1 extracted to /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/.staging/es6-symbol-9e40e972 (180ms)
+489 silly extract es6-iterator@~2.0.3 extracted to /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/.staging/es6-iterator-85738f96 (180ms)
+490 silly extract pty.js@^0.3.0 extracted to /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/.staging/pty.js-56e5e103 (179ms)
+491 silly extract 101@^1.0.0 extracted to /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/.staging/101-ce990366 (189ms)
+492 silly extract term.js@0.0.7 extracted to /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/.staging/term.js-1cb1ff88 (185ms)
+493 silly extract nan@2.3.5 extracted to /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/.staging/nan-798f9774 (203ms)
+494 silly extract type@^1.0.1 extracted to /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/.staging/type-515d09d4 (230ms)
+495 silly extract jquery@2.1.4 extracted to /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/.staging/jquery-c12ed59e (235ms)
+496 silly extract es5-ext@~0.10.6 extracted to /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/.staging/es5-ext-8ca2aaaf (300ms)
+497 timing audit submit Completed in 483ms
+498 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/audits/quick 483ms
+499 timing audit body Completed in 1ms
+500 http fetch GET 200 https://www.atom.io/api/packages/term/versions/0.2.4/tarball 658ms
+501 silly extract https://www.atom.io/api/packages/term/versions/0.2.4/tarball extracted to /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/.staging/term-2c894452 (759ms)
+502 timing action:extract Completed in 774ms
+503 silly doReverseSerial unbuild 248
+504 silly doSerial remove 248
+505 silly doSerial move 248
+506 silly doSerial finalize 248
+507 silly finalize /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/clone
+508 silly finalize /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/extend
+509 silly finalize /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/fuzzaldrin
+510 silly finalize /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/jquery
+511 silly finalize /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/mixto
+512 silly finalize /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/nan
+513 silly finalize /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/next-tick
+514 silly finalize /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/type
+515 silly finalize /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/es5-ext/node_modules/d
+516 silly finalize /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/es5-ext/node_modules/es6-symbol
+517 silly finalize /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/es5-ext/node_modules/es6-iterator
+518 silly finalize /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/es5-ext
+519 silly finalize /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/d
+520 silly finalize /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/es6-symbol
+521 silly finalize /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/es6-iterator
+522 silly finalize /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/es6-weak-map
+523 silly finalize /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/property-accessors
+524 silly finalize /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/type-detect
+525 silly finalize /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/deep-eql
+526 silly finalize /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/101
+527 silly finalize /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/keypather
+528 silly finalize /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/underscore
+529 silly finalize /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/underscore-plus
+530 silly finalize /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/emissary
+531 silly finalize /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/grim
+532 silly finalize /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/space-pen
+533 silly finalize /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/atom-space-pen-views
+534 silly finalize /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/debounce
+535 silly finalize /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/pty.js
+536 silly finalize /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/term.js
+537 silly finalize /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term
+538 timing action:finalize Completed in 40ms
+539 silly doParallel refresh-package-json 31
+540 silly refresh-package-json /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/clone
+541 silly refresh-package-json /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/extend
+542 silly refresh-package-json /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/fuzzaldrin
+543 silly refresh-package-json /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/jquery
+544 silly refresh-package-json /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/mixto
+545 silly refresh-package-json /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/nan
+546 silly refresh-package-json /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/next-tick
+547 silly refresh-package-json /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/type
+548 silly refresh-package-json /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/es5-ext/node_modules/d
+549 silly refresh-package-json /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/es5-ext/node_modules/es6-symbol
+550 silly refresh-package-json /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/es5-ext/node_modules/es6-iterator
+551 silly refresh-package-json /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/es5-ext
+552 silly refresh-package-json /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/d
+553 silly refresh-package-json /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/es6-symbol
+554 silly refresh-package-json /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/es6-iterator
+555 silly refresh-package-json /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/es6-weak-map
+556 silly refresh-package-json /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/property-accessors
+557 silly refresh-package-json /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/type-detect
+558 silly refresh-package-json /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/deep-eql
+559 silly refresh-package-json /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/101
+560 silly refresh-package-json /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/keypather
+561 silly refresh-package-json /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/underscore
+562 silly refresh-package-json /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/underscore-plus
+563 silly refresh-package-json /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/emissary
+564 silly refresh-package-json /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/grim
+565 silly refresh-package-json /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/space-pen
+566 silly refresh-package-json /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/atom-space-pen-views
+567 silly refresh-package-json /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/debounce
+568 silly refresh-package-json /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/pty.js
+569 silly refresh-package-json /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/term.js
+570 silly refresh-package-json /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term
+571 timing action:refresh-package-json Completed in 59ms
+572 silly doParallel preinstall 31
+573 silly preinstall clone@1.0.4
+574 info lifecycle clone@1.0.4~preinstall: clone@1.0.4
+575 silly preinstall extend@1.2.1
+576 info lifecycle extend@1.2.1~preinstall: extend@1.2.1
+577 silly preinstall fuzzaldrin@2.1.0
+578 info lifecycle fuzzaldrin@2.1.0~preinstall: fuzzaldrin@2.1.0
+579 silly preinstall jquery@2.1.4
+580 info lifecycle jquery@2.1.4~preinstall: jquery@2.1.4
+581 silly preinstall mixto@1.0.0
+582 info lifecycle mixto@1.0.0~preinstall: mixto@1.0.0
+583 silly preinstall nan@2.3.5
+584 info lifecycle nan@2.3.5~preinstall: nan@2.3.5
+585 silly preinstall next-tick@1.0.0
+586 info lifecycle next-tick@1.0.0~preinstall: next-tick@1.0.0
+587 silly preinstall type@1.2.0
+588 info lifecycle type@1.2.0~preinstall: type@1.2.0
+589 silly preinstall d@1.0.1
+590 info lifecycle d@1.0.1~preinstall: d@1.0.1
+591 silly preinstall es6-symbol@3.1.2
+592 info lifecycle es6-symbol@3.1.2~preinstall: es6-symbol@3.1.2
+593 silly preinstall es6-iterator@2.0.3
+594 info lifecycle es6-iterator@2.0.3~preinstall: es6-iterator@2.0.3
+595 silly preinstall es5-ext@0.10.51
+596 info lifecycle es5-ext@0.10.51~preinstall: es5-ext@0.10.51
+597 silly preinstall d@0.1.1
+598 info lifecycle d@0.1.1~preinstall: d@0.1.1
+599 silly preinstall es6-symbol@2.0.1
+600 info lifecycle es6-symbol@2.0.1~preinstall: es6-symbol@2.0.1
+601 silly preinstall es6-iterator@0.1.3
+602 info lifecycle es6-iterator@0.1.3~preinstall: es6-iterator@0.1.3
+603 silly preinstall es6-weak-map@0.1.4
+604 info lifecycle es6-weak-map@0.1.4~preinstall: es6-weak-map@0.1.4
+605 silly preinstall property-accessors@1.1.3
+606 info lifecycle property-accessors@1.1.3~preinstall: property-accessors@1.1.3
+607 silly preinstall type-detect@0.1.1
+608 info lifecycle type-detect@0.1.1~preinstall: type-detect@0.1.1
+609 silly preinstall deep-eql@0.1.3
+610 info lifecycle deep-eql@0.1.3~preinstall: deep-eql@0.1.3
+611 silly preinstall 101@1.6.3
+612 info lifecycle 101@1.6.3~preinstall: 101@1.6.3
+613 silly preinstall keypather@1.10.2
+614 info lifecycle keypather@1.10.2~preinstall: keypather@1.10.2
+615 silly preinstall underscore@1.9.1
+616 info lifecycle underscore@1.9.1~preinstall: underscore@1.9.1
+617 silly preinstall underscore-plus@1.7.0
+618 info lifecycle underscore-plus@1.7.0~preinstall: underscore-plus@1.7.0
+619 silly preinstall emissary@1.3.3
+620 info lifecycle emissary@1.3.3~preinstall: emissary@1.3.3
+621 silly preinstall grim@1.5.0
+622 info lifecycle grim@1.5.0~preinstall: grim@1.5.0
+623 silly preinstall space-pen@5.1.2
+624 info lifecycle space-pen@5.1.2~preinstall: space-pen@5.1.2
+625 silly preinstall atom-space-pen-views@2.2.0
+626 info lifecycle atom-space-pen-views@2.2.0~preinstall: atom-space-pen-views@2.2.0
+627 silly preinstall debounce@0.0.3
+628 info lifecycle debounce@0.0.3~preinstall: debounce@0.0.3
+629 silly preinstall pty.js@0.3.1
+630 info lifecycle pty.js@0.3.1~preinstall: pty.js@0.3.1
+631 silly preinstall term.js@0.0.7
+632 info lifecycle term.js@0.0.7~preinstall: term.js@0.0.7
+633 silly preinstall term@0.2.4
+634 info lifecycle term@0.2.4~preinstall: term@0.2.4
+635 timing action:preinstall Completed in 3ms
+636 silly doSerial build 248
+637 silly build clone@1.0.4
+638 info linkStuff clone@1.0.4
+639 silly linkStuff clone@1.0.4 has /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules as its parent node_modules
+640 silly build extend@1.2.1
+641 info linkStuff extend@1.2.1
+642 silly linkStuff extend@1.2.1 has /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules as its parent node_modules
+643 silly build fuzzaldrin@2.1.0
+644 info linkStuff fuzzaldrin@2.1.0
+645 silly linkStuff fuzzaldrin@2.1.0 has /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules as its parent node_modules
+646 silly build jquery@2.1.4
+647 info linkStuff jquery@2.1.4
+648 silly linkStuff jquery@2.1.4 has /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules as its parent node_modules
+649 silly build mixto@1.0.0
+650 info linkStuff mixto@1.0.0
+651 silly linkStuff mixto@1.0.0 has /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules as its parent node_modules
+652 silly build nan@2.3.5
+653 info linkStuff nan@2.3.5
+654 silly linkStuff nan@2.3.5 has /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules as its parent node_modules
+655 silly build next-tick@1.0.0
+656 info linkStuff next-tick@1.0.0
+657 silly linkStuff next-tick@1.0.0 has /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules as its parent node_modules
+658 silly build type@1.2.0
+659 info linkStuff type@1.2.0
+660 silly linkStuff type@1.2.0 has /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules as its parent node_modules
+661 silly build d@1.0.1
+662 info linkStuff d@1.0.1
+663 silly linkStuff d@1.0.1 has /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/es5-ext/node_modules as its parent node_modules
+664 silly build es6-symbol@3.1.2
+665 info linkStuff es6-symbol@3.1.2
+666 silly linkStuff es6-symbol@3.1.2 has /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/es5-ext/node_modules as its parent node_modules
+667 silly build es6-iterator@2.0.3
+668 info linkStuff es6-iterator@2.0.3
+669 silly linkStuff es6-iterator@2.0.3 has /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/es5-ext/node_modules as its parent node_modules
+670 silly build es5-ext@0.10.51
+671 info linkStuff es5-ext@0.10.51
+672 silly linkStuff es5-ext@0.10.51 has /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules as its parent node_modules
+673 silly build d@0.1.1
+674 info linkStuff d@0.1.1
+675 silly linkStuff d@0.1.1 has /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules as its parent node_modules
+676 silly build es6-symbol@2.0.1
+677 info linkStuff es6-symbol@2.0.1
+678 silly linkStuff es6-symbol@2.0.1 has /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules as its parent node_modules
+679 silly build es6-iterator@0.1.3
+680 info linkStuff es6-iterator@0.1.3
+681 silly linkStuff es6-iterator@0.1.3 has /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules as its parent node_modules
+682 silly build es6-weak-map@0.1.4
+683 info linkStuff es6-weak-map@0.1.4
+684 silly linkStuff es6-weak-map@0.1.4 has /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules as its parent node_modules
+685 silly build property-accessors@1.1.3
+686 info linkStuff property-accessors@1.1.3
+687 silly linkStuff property-accessors@1.1.3 has /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules as its parent node_modules
+688 silly build type-detect@0.1.1
+689 info linkStuff type-detect@0.1.1
+690 silly linkStuff type-detect@0.1.1 has /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules as its parent node_modules
+691 silly build deep-eql@0.1.3
+692 info linkStuff deep-eql@0.1.3
+693 silly linkStuff deep-eql@0.1.3 has /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules as its parent node_modules
+694 silly build 101@1.6.3
+695 info linkStuff 101@1.6.3
+696 silly linkStuff 101@1.6.3 has /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules as its parent node_modules
+697 silly build keypather@1.10.2
+698 info linkStuff keypather@1.10.2
+699 silly linkStuff keypather@1.10.2 has /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules as its parent node_modules
+700 silly build underscore@1.9.1
+701 info linkStuff underscore@1.9.1
+702 silly linkStuff underscore@1.9.1 has /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules as its parent node_modules
+703 silly build underscore-plus@1.7.0
+704 info linkStuff underscore-plus@1.7.0
+705 silly linkStuff underscore-plus@1.7.0 has /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules as its parent node_modules
+706 silly build emissary@1.3.3
+707 info linkStuff emissary@1.3.3
+708 silly linkStuff emissary@1.3.3 has /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules as its parent node_modules
+709 silly build grim@1.5.0
+710 info linkStuff grim@1.5.0
+711 silly linkStuff grim@1.5.0 has /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules as its parent node_modules
+712 silly build space-pen@5.1.2
+713 info linkStuff space-pen@5.1.2
+714 silly linkStuff space-pen@5.1.2 has /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules as its parent node_modules
+715 silly build atom-space-pen-views@2.2.0
+716 info linkStuff atom-space-pen-views@2.2.0
+717 silly linkStuff atom-space-pen-views@2.2.0 has /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules as its parent node_modules
+718 silly build debounce@0.0.3
+719 info linkStuff debounce@0.0.3
+720 silly linkStuff debounce@0.0.3 has /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules as its parent node_modules
+721 silly build pty.js@0.3.1
+722 info linkStuff pty.js@0.3.1
+723 silly linkStuff pty.js@0.3.1 has /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules as its parent node_modules
+724 silly build term.js@0.0.7
+725 info linkStuff term.js@0.0.7
+726 silly linkStuff term.js@0.0.7 has /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules as its parent node_modules
+727 silly build term@0.2.4
+728 info linkStuff term@0.2.4
+729 silly linkStuff term@0.2.4 has /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules as its parent node_modules
+730 timing action:build Completed in 4ms
+731 silly doSerial global-link 248
+732 silly doParallel update-linked 0
+733 silly doSerial install 248
+734 silly install clone@1.0.4
+735 info lifecycle clone@1.0.4~install: clone@1.0.4
+736 silly install extend@1.2.1
+737 info lifecycle extend@1.2.1~install: extend@1.2.1
+738 silly install fuzzaldrin@2.1.0
+739 info lifecycle fuzzaldrin@2.1.0~install: fuzzaldrin@2.1.0
+740 silly install jquery@2.1.4
+741 info lifecycle jquery@2.1.4~install: jquery@2.1.4
+742 silly install mixto@1.0.0
+743 info lifecycle mixto@1.0.0~install: mixto@1.0.0
+744 silly install nan@2.3.5
+745 info lifecycle nan@2.3.5~install: nan@2.3.5
+746 silly install next-tick@1.0.0
+747 info lifecycle next-tick@1.0.0~install: next-tick@1.0.0
+748 silly install type@1.2.0
+749 info lifecycle type@1.2.0~install: type@1.2.0
+750 silly install d@1.0.1
+751 info lifecycle d@1.0.1~install: d@1.0.1
+752 silly install es6-symbol@3.1.2
+753 info lifecycle es6-symbol@3.1.2~install: es6-symbol@3.1.2
+754 silly install es6-iterator@2.0.3
+755 info lifecycle es6-iterator@2.0.3~install: es6-iterator@2.0.3
+756 silly install es5-ext@0.10.51
+757 info lifecycle es5-ext@0.10.51~install: es5-ext@0.10.51
+758 silly install d@0.1.1
+759 info lifecycle d@0.1.1~install: d@0.1.1
+760 silly install es6-symbol@2.0.1
+761 info lifecycle es6-symbol@2.0.1~install: es6-symbol@2.0.1
+762 silly install es6-iterator@0.1.3
+763 info lifecycle es6-iterator@0.1.3~install: es6-iterator@0.1.3
+764 silly install es6-weak-map@0.1.4
+765 info lifecycle es6-weak-map@0.1.4~install: es6-weak-map@0.1.4
+766 silly install property-accessors@1.1.3
+767 info lifecycle property-accessors@1.1.3~install: property-accessors@1.1.3
+768 silly install type-detect@0.1.1
+769 info lifecycle type-detect@0.1.1~install: type-detect@0.1.1
+770 silly install deep-eql@0.1.3
+771 info lifecycle deep-eql@0.1.3~install: deep-eql@0.1.3
+772 silly install 101@1.6.3
+773 info lifecycle 101@1.6.3~install: 101@1.6.3
+774 silly install keypather@1.10.2
+775 info lifecycle keypather@1.10.2~install: keypather@1.10.2
+776 silly install underscore@1.9.1
+777 info lifecycle underscore@1.9.1~install: underscore@1.9.1
+778 silly install underscore-plus@1.7.0
+779 info lifecycle underscore-plus@1.7.0~install: underscore-plus@1.7.0
+780 silly install emissary@1.3.3
+781 info lifecycle emissary@1.3.3~install: emissary@1.3.3
+782 silly install grim@1.5.0
+783 info lifecycle grim@1.5.0~install: grim@1.5.0
+784 silly install space-pen@5.1.2
+785 info lifecycle space-pen@5.1.2~install: space-pen@5.1.2
+786 silly install atom-space-pen-views@2.2.0
+787 info lifecycle atom-space-pen-views@2.2.0~install: atom-space-pen-views@2.2.0
+788 silly install debounce@0.0.3
+789 info lifecycle debounce@0.0.3~install: debounce@0.0.3
+790 silly install pty.js@0.3.1
+791 info lifecycle pty.js@0.3.1~install: pty.js@0.3.1
+792 verbose lifecycle pty.js@0.3.1~install: unsafe-perm in lifecycle true
+793 verbose lifecycle pty.js@0.3.1~install: PATH: /usr/share/atom/resources/app/apm/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/pty.js/node_modules/.bin:/tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/.bin:/tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/.bin:/usr/share/atom/resources/app/apm/bin:/home/ah257962/bin:/home/ah257962/.local/bin:/home/ah257962/pycharm-community-2018.3.3/bin:/home/ah257962/bin:/home/ah257962/.local/bin:/home/ah257962/pycharm-community-2018.3.3/bin:/home/ah257962/anaconda3/bin:/home/ah257962/anaconda3/condabin:/home/ah257962/bin:/home/ah257962/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+794 verbose lifecycle pty.js@0.3.1~install: CWD: /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/term/node_modules/pty.js
+795 silly lifecycle pty.js@0.3.1~install: Args: [ '-c', 'node-gyp rebuild' ]
+796 silly lifecycle pty.js@0.3.1~install: Returned: code: 1  signal: null
+797 info lifecycle pty.js@0.3.1~install: Failed to exec install script
+798 timing action:install Completed in 197ms
+799 verbose unlock done using /home/ah257962/.atom/.apm/_locks/staging-9ad625ebfeaf8264.lock for /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/node_modules/.staging
+800 timing stage:rollbackFailedOptional Completed in 115ms
+801 timing stage:runTopLevelLifecycles Completed in 3692ms
+802 silly saveTree apm-install-dir-11999-14638-27jqxo.g4ux2
+802 silly saveTree └─┬ term@0.2.4
+802 silly saveTree   ├─┬ atom-space-pen-views@2.2.0
+802 silly saveTree   │ ├── fuzzaldrin@2.1.0
+802 silly saveTree   │ └─┬ space-pen@5.1.2
+802 silly saveTree   │   ├─┬ grim@1.5.0
+802 silly saveTree   │   │ └─┬ emissary@1.3.3
+802 silly saveTree   │   │   ├─┬ es6-weak-map@0.1.4
+802 silly saveTree   │   │   │ ├─┬ d@0.1.1
+802 silly saveTree   │   │   │ │ └─┬ es5-ext@0.10.51
+802 silly saveTree   │   │   │ │   ├─┬ es6-iterator@2.0.3
+802 silly saveTree   │   │   │ │   │ ├─┬ d@1.0.1
+802 silly saveTree   │   │   │ │   │ │ └── type@1.2.0
+802 silly saveTree   │   │   │ │   │ └── es6-symbol@3.1.2
+802 silly saveTree   │   │   │ │   ├── es6-symbol@3.1.2
+802 silly saveTree   │   │   │ │   └── next-tick@1.0.0
+802 silly saveTree   │   │   │ ├── es5-ext@0.10.51
+802 silly saveTree   │   │   │ ├─┬ es6-iterator@0.1.3
+802 silly saveTree   │   │   │ │ └── es6-symbol@2.0.1
+802 silly saveTree   │   │   │ └── es6-symbol@2.0.1
+802 silly saveTree   │   │   ├── mixto@1.0.0
+802 silly saveTree   │   │   ├── property-accessors@1.1.3
+802 silly saveTree   │   │   └─┬ underscore-plus@1.7.0
+802 silly saveTree   │   │     └── underscore@1.9.1
+802 silly saveTree   │   ├── jquery@2.1.4
+802 silly saveTree   │   └── underscore-plus@1.7.0
+802 silly saveTree   ├── debounce@0.0.3
+802 silly saveTree   ├─┬ keypather@1.10.2
+802 silly saveTree   │ └─┬ 101@1.6.3
+802 silly saveTree   │   ├── clone@1.0.4
+802 silly saveTree   │   └─┬ deep-eql@0.1.3
+802 silly saveTree   │     └── type-detect@0.1.1
+802 silly saveTree   ├─┬ pty.js@0.3.1
+802 silly saveTree   │ ├── extend@1.2.1
+802 silly saveTree   │ └── nan@2.3.5
+802 silly saveTree   └── term.js@0.0.7
+803 warn enoent ENOENT: no such file or directory, open '/tmp/apm-install-dir-11999-14638-27jqxo.g4ux2/package.json'
+804 verbose enoent This is related to npm not being able to find a file.
+805 warn apm-install-dir-11999-14638-27jqxo.g4ux2 No description
+806 warn apm-install-dir-11999-14638-27jqxo.g4ux2 No repository field.
+807 warn apm-install-dir-11999-14638-27jqxo.g4ux2 No README data
+808 warn apm-install-dir-11999-14638-27jqxo.g4ux2 No license field.
+809 verbose stack Error: pty.js@0.3.1 install: `node-gyp rebuild`
+809 verbose stack Exit status 1
+809 verbose stack     at EventEmitter.<anonymous> (/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/npm-lifecycle/index.js:304:16)
+809 verbose stack     at EventEmitter.emit (events.js:182:13)
+809 verbose stack     at ChildProcess.<anonymous> (/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+809 verbose stack     at ChildProcess.emit (events.js:182:13)
+809 verbose stack     at maybeClose (internal/child_process.js:961:16)
+809 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:248:5)
+810 verbose pkgid pty.js@0.3.1
+811 verbose cwd /tmp/apm-install-dir-11999-14638-27jqxo.g4ux2
+812 verbose Linux 4.15.0-54-generic
+813 verbose argv "/usr/share/atom/resources/app/apm/bin/node" "/usr/share/atom/resources/app/apm/node_modules/npm/bin/npm-cli.js" "--globalconfig" "/home/ah257962/.atom/.apm/.apmrc" "--userconfig" "/home/ah257962/.atom/.apmrc" "install" "https://www.atom.io/api/packages/term/versions/0.2.4/tarball" "--target=3.1.10" "--disturl=https://atom.io/download/electron" "--arch=x64" "--global-style"
+814 verbose node v10.2.1
+815 verbose npm  v6.2.0
+816 error code ELIFECYCLE
+817 error errno 1
+818 error pty.js@0.3.1 install: `node-gyp rebuild`
+818 error Exit status 1
+819 error Failed at the pty.js@0.3.1 install script.
+819 error This is probably not a problem with npm. There is likely additional logging output above.
+820 verbose exit [ 1, true ]

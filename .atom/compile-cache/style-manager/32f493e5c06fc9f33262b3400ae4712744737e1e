@@ -1,0 +1,1 @@
+{"source":"atom-text-editor.editor .syntax--source.syntax--python .syntax--comment.syntax--line.syntax--number-sign.syntax--python .syntax--entity.syntax--name.syntax--section.syntax--breakpoint::before {\n  content: '';\n  position: absolute;\n  width: 100%;\n  height: 3px;\n  left: 0;\n  background: rgba(171, 178, 191, 0.15);\n  opacity: 0.95;\n}\n"}

@@ -1,0 +1,59 @@
+{
+  "_from": "https://www.atom.io/api/packages/process-palette/versions/0.17.0/tarball",
+  "_id": "process-palette@0.17.0",
+  "_inBundle": false,
+  "_integrity": "sha512-lBexl5wWaPzaE5jC2x191ef5ij3USlgV+GyiE6EkOJ3w7IwB88o+lYWWsmewvz3xgENyxsLZPn1eKYZumCmQ/w==",
+  "_location": "/process-palette",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/process-palette/versions/0.17.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/process-palette/versions/0.17.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/process-palette/versions/0.17.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/process-palette/versions/0.17.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/process-palette/versions/0.17.0/tarball",
+  "_shasum": "fe377180fc4b2e48f705441c3cec9ee6137dbcba",
+  "_spec": "https://www.atom.io/api/packages/process-palette/versions/0.17.0/tarball",
+  "_where": "/tmp/apm-install-dir-12069-6847-8f1a74.z4zbh",
+  "bugs": {
+    "url": "https://github.com/morassman/process-palette/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "ansi-to-html": "~0.3",
+    "atom-space-pen-views": "^2.0.5",
+    "fs-plus": "^2.8.0",
+    "loophole": "^1.1.0",
+    "minimatch": "^2.0.10",
+    "path": "^0.11.14",
+    "ps-tree": "1.0.0",
+    "shelljs": "^0.7.4",
+    "underscore-plus": "^1.0.0",
+    "underscore.string": "~3.2"
+  },
+  "deprecated": false,
+  "description": "Run parameterized shell commands from Atom. Easy to use and very configurable.",
+  "engines": {
+    "atom": ">=1.18.0 <2.0.0"
+  },
+  "homepage": "https://github.com/morassman/process-palette#readme",
+  "keywords": [
+    "run",
+    "execute",
+    "terminal",
+    "shell"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "process-palette",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morassman/process-palette.git"
+  },
+  "version": "0.17.0"
+}

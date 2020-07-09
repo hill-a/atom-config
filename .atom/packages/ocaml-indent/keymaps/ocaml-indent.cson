@@ -1,0 +1,3 @@
+'atom-text-editor[data-grammar="source ocaml"]':
+  'ctrl-alt-i': 'ocaml-indent:selection'
+  'ctrl-alt-f': 'ocaml-indent:file'

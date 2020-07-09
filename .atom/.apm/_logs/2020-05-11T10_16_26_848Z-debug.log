@@ -1,0 +1,245 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/share/atom/resources/app/apm/bin/node',
+1 verbose cli   '/usr/share/atom/resources/app/apm/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   '--globalconfig',
+1 verbose cli   '/home/ah257962/.atom/.apm/.apmrc',
+1 verbose cli   '--userconfig',
+1 verbose cli   '/home/ah257962/.atom/.apmrc',
+1 verbose cli   'install',
+1 verbose cli   'https://www.atom.io/api/packages/language-ocaml-fix/versions/3.4.1/tarball',
+1 verbose cli   '--target=3.1.10',
+1 verbose cli   '--disturl=https://atom.io/download/electron',
+1 verbose cli   '--arch=x64',
+1 verbose cli   '--global-style' ]
+2 info using npm@6.2.0
+3 info using node@v10.2.1
+4 verbose npm-session 5f4f57c1bf2b15ee
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 304 https://www.atom.io/api/packages/language-ocaml-fix/versions/3.4.1/tarball 1832ms (from cache)
+8 silly pacote remote manifest for undefined@https://www.atom.io/api/packages/language-ocaml-fix/versions/3.4.1/tarball fetched in 1862ms
+9 timing stage:loadCurrentTree Completed in 2244ms
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 timing stage:loadIdealTree:cloneCurrentTree Completed in 0ms
+13 silly install loadShrinkwrap
+14 timing stage:loadIdealTree:loadShrinkwrap Completed in 1ms
+15 silly install loadAllDepsIntoIdealTree
+16 silly resolveWithNewModule language-ocaml-fix@3.4.1 checking installable status
+17 http fetch GET 304 https://registry.npmjs.org/tree-sitter-ocaml 253ms (from cache)
+18 http fetch GET 304 https://registry.npmjs.org/tree-sitter-ocamllex 253ms (from cache)
+19 silly pacote range manifest for tree-sitter-ocaml@^0.15.0 fetched in 266ms
+20 silly resolveWithNewModule tree-sitter-ocaml@0.15.0 checking installable status
+21 silly pacote range manifest for tree-sitter-ocamllex@^0.15.0 fetched in 265ms
+22 silly resolveWithNewModule tree-sitter-ocamllex@0.15.0 checking installable status
+23 http fetch GET 304 https://registry.npmjs.org/tree-sitter-menhir 266ms (from cache)
+24 http fetch GET 304 https://registry.npmjs.org/tree-sitter-dune 266ms (from cache)
+25 silly pacote range manifest for tree-sitter-menhir@^0.1.2 fetched in 268ms
+26 silly resolveWithNewModule tree-sitter-menhir@0.1.2 checking installable status
+27 silly pacote range manifest for tree-sitter-dune@^0.15.0 fetched in 268ms
+28 silly resolveWithNewModule tree-sitter-dune@0.15.0 checking installable status
+29 http fetch GET 304 https://registry.npmjs.org/nan 185ms (from cache)
+30 silly pacote range manifest for nan@^2.14.0 fetched in 187ms
+31 silly resolveWithNewModule nan@2.14.1 checking installable status
+32 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 501ms
+33 timing stage:loadIdealTree Completed in 507ms
+34 silly currentTree apm-install-dir-120411-16268-10xd6d8.dq14j
+35 silly idealTree apm-install-dir-120411-16268-10xd6d8.dq14j
+35 silly idealTree └─┬ language-ocaml-fix@3.4.1
+35 silly idealTree   ├── nan@2.14.1
+35 silly idealTree   ├── tree-sitter-dune@0.15.0
+35 silly idealTree   ├── tree-sitter-menhir@0.1.2
+35 silly idealTree   ├── tree-sitter-ocaml@0.15.0
+35 silly idealTree   └── tree-sitter-ocamllex@0.15.0
+36 silly install generateActionsToTake
+37 silly diff-trees filtering actions: includeDev false includeProd true includeOpt true
+38 timing stage:generateActionsToTake Completed in 10ms
+39 silly diffTrees action count 6
+40 silly diffTrees add nan@2.14.1
+41 silly diffTrees add tree-sitter-dune@0.15.0
+42 silly diffTrees add tree-sitter-menhir@0.1.2
+43 silly diffTrees add tree-sitter-ocaml@0.15.0
+44 silly diffTrees add tree-sitter-ocamllex@0.15.0
+45 silly diffTrees add language-ocaml-fix@3.4.1
+46 silly decomposeActions action count 48
+47 silly decomposeActions fetch nan@2.14.1
+48 silly decomposeActions extract nan@2.14.1
+49 silly decomposeActions preinstall nan@2.14.1
+50 silly decomposeActions build nan@2.14.1
+51 silly decomposeActions install nan@2.14.1
+52 silly decomposeActions postinstall nan@2.14.1
+53 silly decomposeActions finalize nan@2.14.1
+54 silly decomposeActions refresh-package-json nan@2.14.1
+55 silly decomposeActions fetch tree-sitter-dune@0.15.0
+56 silly decomposeActions extract tree-sitter-dune@0.15.0
+57 silly decomposeActions preinstall tree-sitter-dune@0.15.0
+58 silly decomposeActions build tree-sitter-dune@0.15.0
+59 silly decomposeActions install tree-sitter-dune@0.15.0
+60 silly decomposeActions postinstall tree-sitter-dune@0.15.0
+61 silly decomposeActions finalize tree-sitter-dune@0.15.0
+62 silly decomposeActions refresh-package-json tree-sitter-dune@0.15.0
+63 silly decomposeActions fetch tree-sitter-menhir@0.1.2
+64 silly decomposeActions extract tree-sitter-menhir@0.1.2
+65 silly decomposeActions preinstall tree-sitter-menhir@0.1.2
+66 silly decomposeActions build tree-sitter-menhir@0.1.2
+67 silly decomposeActions install tree-sitter-menhir@0.1.2
+68 silly decomposeActions postinstall tree-sitter-menhir@0.1.2
+69 silly decomposeActions finalize tree-sitter-menhir@0.1.2
+70 silly decomposeActions refresh-package-json tree-sitter-menhir@0.1.2
+71 silly decomposeActions fetch tree-sitter-ocaml@0.15.0
+72 silly decomposeActions extract tree-sitter-ocaml@0.15.0
+73 silly decomposeActions preinstall tree-sitter-ocaml@0.15.0
+74 silly decomposeActions build tree-sitter-ocaml@0.15.0
+75 silly decomposeActions install tree-sitter-ocaml@0.15.0
+76 silly decomposeActions postinstall tree-sitter-ocaml@0.15.0
+77 silly decomposeActions finalize tree-sitter-ocaml@0.15.0
+78 silly decomposeActions refresh-package-json tree-sitter-ocaml@0.15.0
+79 silly decomposeActions fetch tree-sitter-ocamllex@0.15.0
+80 silly decomposeActions extract tree-sitter-ocamllex@0.15.0
+81 silly decomposeActions preinstall tree-sitter-ocamllex@0.15.0
+82 silly decomposeActions build tree-sitter-ocamllex@0.15.0
+83 silly decomposeActions install tree-sitter-ocamllex@0.15.0
+84 silly decomposeActions postinstall tree-sitter-ocamllex@0.15.0
+85 silly decomposeActions finalize tree-sitter-ocamllex@0.15.0
+86 silly decomposeActions refresh-package-json tree-sitter-ocamllex@0.15.0
+87 silly decomposeActions fetch language-ocaml-fix@3.4.1
+88 silly decomposeActions extract language-ocaml-fix@3.4.1
+89 silly decomposeActions preinstall language-ocaml-fix@3.4.1
+90 silly decomposeActions build language-ocaml-fix@3.4.1
+91 silly decomposeActions install language-ocaml-fix@3.4.1
+92 silly decomposeActions postinstall language-ocaml-fix@3.4.1
+93 silly decomposeActions finalize language-ocaml-fix@3.4.1
+94 silly decomposeActions refresh-package-json language-ocaml-fix@3.4.1
+95 silly install executeActions
+96 silly doSerial global-install 48
+97 verbose correctMkdir /home/ah257962/.atom/.apm/_locks correctMkdir not in flight; initializing
+98 timing audit compress Completed in 10ms
+99 info audit Submitting payload of 843bytes
+100 verbose lock using /home/ah257962/.atom/.apm/_locks/staging-d64c31d2b66bb636.lock for /tmp/apm-install-dir-120411-16268-10xd6d8.dq14j/node_modules/.staging
+101 silly doParallel extract 6
+102 silly extract nan@2.14.1
+103 silly extract tree-sitter-dune@0.15.0
+104 silly extract tree-sitter-menhir@0.1.2
+105 silly extract tree-sitter-ocaml@0.15.0
+106 silly extract tree-sitter-ocamllex@0.15.0
+107 silly extract language-ocaml-fix@3.4.1
+108 silly tarball trying nan@^2.14.0 by hash: sha512-isWHgVjnFjh2x2yuJ/tj3JbwoHu3UC2dX5G/88Cm24yB6YopVgxvBObDY7n5xW6ExmFhJpSEQqFPvq9zaXc8Jw==
+109 silly tarball trying tree-sitter-dune@^0.15.0 by hash: sha512-OEz8F+OwBihhlgai9w1rOh9wSBTE7fJUhRKnxNYxUF4TBU/SHgLUL3R0h6fHnj+wZ8yEERibKxY1dG8ktNd8fw==
+110 silly tarball trying tree-sitter-menhir@^0.1.2 by hash: sha512-DOF/niTUW5h/D9ICncbn3HqGrPHNShxbvzWekNMz+pemHkvSIAL+aJIvS9x4NetQTLy1jTVIEI43lEYtaG8V2A==
+111 silly tarball trying tree-sitter-ocaml@^0.15.0 by hash: sha512-DAXHBhfyi5Cc+N/Xvs2rMvRdoTKcclxggBEW7heW71jFDoB9Dehm0KDiSQFM50otmnZdmJxZmMTTdq8YRjuQnQ==
+112 silly tarball trying tree-sitter-ocamllex@^0.15.0 by hash: sha512-Z971PVU75P77+Vb0A3sFJhb3Vl4h/WPl0qVfsV/Du8Jcl/vl3gb0myxmknO+fzfS5RRGOrhEDSWKj2Q/QngVpA==
+113 silly tarball trying https://www.atom.io/api/packages/language-ocaml-fix/versions/3.4.1/tarball by hash: sha512-EScrmb0DFieuuX4zxouvZOLuX8Q3O0abs24WF6s023uCQqqDHkPhJId/9hHQn/iHD7WGiCO9/ha836d4LoUvMQ==
+114 silly extract tree-sitter-dune@^0.15.0 extracted to /tmp/apm-install-dir-120411-16268-10xd6d8.dq14j/node_modules/.staging/tree-sitter-dune-6c4bd118 (131ms)
+115 silly extract tree-sitter-ocamllex@^0.15.0 extracted to /tmp/apm-install-dir-120411-16268-10xd6d8.dq14j/node_modules/.staging/tree-sitter-ocamllex-fd7fa610 (131ms)
+116 silly extract tree-sitter-menhir@^0.1.2 extracted to /tmp/apm-install-dir-120411-16268-10xd6d8.dq14j/node_modules/.staging/tree-sitter-menhir-7667a9b7 (144ms)
+117 silly extract https://www.atom.io/api/packages/language-ocaml-fix/versions/3.4.1/tarball extracted to /tmp/apm-install-dir-120411-16268-10xd6d8.dq14j/node_modules/.staging/language-ocaml-fix-f920d907 (144ms)
+118 silly extract nan@^2.14.0 extracted to /tmp/apm-install-dir-120411-16268-10xd6d8.dq14j/node_modules/.staging/nan-22b31e52 (157ms)
+119 silly extract tree-sitter-ocaml@^0.15.0 extracted to /tmp/apm-install-dir-120411-16268-10xd6d8.dq14j/node_modules/.staging/tree-sitter-ocaml-54155498 (874ms)
+120 timing action:extract Completed in 885ms
+121 silly doReverseSerial unbuild 48
+122 silly doSerial remove 48
+123 silly doSerial move 48
+124 silly doSerial finalize 48
+125 silly finalize /tmp/apm-install-dir-120411-16268-10xd6d8.dq14j/node_modules/language-ocaml-fix/node_modules/nan
+126 silly finalize /tmp/apm-install-dir-120411-16268-10xd6d8.dq14j/node_modules/language-ocaml-fix/node_modules/tree-sitter-dune
+127 silly finalize /tmp/apm-install-dir-120411-16268-10xd6d8.dq14j/node_modules/language-ocaml-fix/node_modules/tree-sitter-menhir
+128 silly finalize /tmp/apm-install-dir-120411-16268-10xd6d8.dq14j/node_modules/language-ocaml-fix/node_modules/tree-sitter-ocaml
+129 silly finalize /tmp/apm-install-dir-120411-16268-10xd6d8.dq14j/node_modules/language-ocaml-fix/node_modules/tree-sitter-ocamllex
+130 silly finalize /tmp/apm-install-dir-120411-16268-10xd6d8.dq14j/node_modules/language-ocaml-fix
+131 timing audit submit Completed in 1118ms
+132 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/audits/quick 1117ms
+133 timing audit body Completed in 0ms
+134 timing action:finalize Completed in 158ms
+135 silly doParallel refresh-package-json 6
+136 silly refresh-package-json /tmp/apm-install-dir-120411-16268-10xd6d8.dq14j/node_modules/language-ocaml-fix/node_modules/nan
+137 silly refresh-package-json /tmp/apm-install-dir-120411-16268-10xd6d8.dq14j/node_modules/language-ocaml-fix/node_modules/tree-sitter-dune
+138 silly refresh-package-json /tmp/apm-install-dir-120411-16268-10xd6d8.dq14j/node_modules/language-ocaml-fix/node_modules/tree-sitter-menhir
+139 silly refresh-package-json /tmp/apm-install-dir-120411-16268-10xd6d8.dq14j/node_modules/language-ocaml-fix/node_modules/tree-sitter-ocaml
+140 silly refresh-package-json /tmp/apm-install-dir-120411-16268-10xd6d8.dq14j/node_modules/language-ocaml-fix/node_modules/tree-sitter-ocamllex
+141 silly refresh-package-json /tmp/apm-install-dir-120411-16268-10xd6d8.dq14j/node_modules/language-ocaml-fix
+142 timing action:refresh-package-json Completed in 63ms
+143 silly doParallel preinstall 6
+144 silly preinstall nan@2.14.1
+145 info lifecycle nan@2.14.1~preinstall: nan@2.14.1
+146 silly preinstall tree-sitter-dune@0.15.0
+147 info lifecycle tree-sitter-dune@0.15.0~preinstall: tree-sitter-dune@0.15.0
+148 silly preinstall tree-sitter-menhir@0.1.2
+149 info lifecycle tree-sitter-menhir@0.1.2~preinstall: tree-sitter-menhir@0.1.2
+150 silly preinstall tree-sitter-ocaml@0.15.0
+151 info lifecycle tree-sitter-ocaml@0.15.0~preinstall: tree-sitter-ocaml@0.15.0
+152 silly preinstall tree-sitter-ocamllex@0.15.0
+153 info lifecycle tree-sitter-ocamllex@0.15.0~preinstall: tree-sitter-ocamllex@0.15.0
+154 silly preinstall language-ocaml-fix@3.4.1
+155 info lifecycle language-ocaml-fix@3.4.1~preinstall: language-ocaml-fix@3.4.1
+156 timing action:preinstall Completed in 5ms
+157 silly doSerial build 48
+158 silly build nan@2.14.1
+159 info linkStuff nan@2.14.1
+160 silly linkStuff nan@2.14.1 has /tmp/apm-install-dir-120411-16268-10xd6d8.dq14j/node_modules/language-ocaml-fix/node_modules as its parent node_modules
+161 silly build tree-sitter-dune@0.15.0
+162 info linkStuff tree-sitter-dune@0.15.0
+163 silly linkStuff tree-sitter-dune@0.15.0 has /tmp/apm-install-dir-120411-16268-10xd6d8.dq14j/node_modules/language-ocaml-fix/node_modules as its parent node_modules
+164 silly build tree-sitter-menhir@0.1.2
+165 info linkStuff tree-sitter-menhir@0.1.2
+166 silly linkStuff tree-sitter-menhir@0.1.2 has /tmp/apm-install-dir-120411-16268-10xd6d8.dq14j/node_modules/language-ocaml-fix/node_modules as its parent node_modules
+167 silly build tree-sitter-ocaml@0.15.0
+168 info linkStuff tree-sitter-ocaml@0.15.0
+169 silly linkStuff tree-sitter-ocaml@0.15.0 has /tmp/apm-install-dir-120411-16268-10xd6d8.dq14j/node_modules/language-ocaml-fix/node_modules as its parent node_modules
+170 silly build tree-sitter-ocamllex@0.15.0
+171 info linkStuff tree-sitter-ocamllex@0.15.0
+172 silly linkStuff tree-sitter-ocamllex@0.15.0 has /tmp/apm-install-dir-120411-16268-10xd6d8.dq14j/node_modules/language-ocaml-fix/node_modules as its parent node_modules
+173 silly build language-ocaml-fix@3.4.1
+174 info linkStuff language-ocaml-fix@3.4.1
+175 silly linkStuff language-ocaml-fix@3.4.1 has /tmp/apm-install-dir-120411-16268-10xd6d8.dq14j/node_modules as its parent node_modules
+176 timing action:build Completed in 12ms
+177 silly doSerial global-link 48
+178 silly doParallel update-linked 0
+179 silly doSerial install 48
+180 silly install nan@2.14.1
+181 info lifecycle nan@2.14.1~install: nan@2.14.1
+182 silly install tree-sitter-dune@0.15.0
+183 info lifecycle tree-sitter-dune@0.15.0~install: tree-sitter-dune@0.15.0
+184 verbose lifecycle tree-sitter-dune@0.15.0~install: unsafe-perm in lifecycle true
+185 verbose lifecycle tree-sitter-dune@0.15.0~install: PATH: /usr/share/atom/resources/app/apm/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/tmp/apm-install-dir-120411-16268-10xd6d8.dq14j/node_modules/language-ocaml-fix/node_modules/tree-sitter-dune/node_modules/.bin:/tmp/apm-install-dir-120411-16268-10xd6d8.dq14j/node_modules/language-ocaml-fix/node_modules/.bin:/tmp/apm-install-dir-120411-16268-10xd6d8.dq14j/node_modules/.bin:/usr/share/atom/resources/app/apm/bin:/home/ah257962/bin:/home/ah257962/.local/bin:/home/ah257962/pycharm-community-2018.3.3/bin:/home/ah257962/anaconda3/bin:/home/ah257962/anaconda3/condabin:/home/ah257962/bin:/home/ah257962/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+186 verbose lifecycle tree-sitter-dune@0.15.0~install: CWD: /tmp/apm-install-dir-120411-16268-10xd6d8.dq14j/node_modules/language-ocaml-fix/node_modules/tree-sitter-dune
+187 silly lifecycle tree-sitter-dune@0.15.0~install: Args: [ '-c', 'node-gyp rebuild' ]
+188 silly lifecycle tree-sitter-dune@0.15.0~install: Returned: code: 1  signal: null
+189 info lifecycle tree-sitter-dune@0.15.0~install: Failed to exec install script
+190 timing action:install Completed in 485ms
+191 verbose unlock done using /home/ah257962/.atom/.apm/_locks/staging-d64c31d2b66bb636.lock for /tmp/apm-install-dir-120411-16268-10xd6d8.dq14j/node_modules/.staging
+192 timing stage:rollbackFailedOptional Completed in 82ms
+193 timing stage:runTopLevelLifecycles Completed in 4598ms
+194 silly saveTree apm-install-dir-120411-16268-10xd6d8.dq14j
+194 silly saveTree └─┬ language-ocaml-fix@3.4.1
+194 silly saveTree   ├─┬ tree-sitter-dune@0.15.0
+194 silly saveTree   │ └── nan@2.14.1
+194 silly saveTree   ├── tree-sitter-menhir@0.1.2
+194 silly saveTree   ├── tree-sitter-ocaml@0.15.0
+194 silly saveTree   └── tree-sitter-ocamllex@0.15.0
+195 warn enoent ENOENT: no such file or directory, open '/tmp/apm-install-dir-120411-16268-10xd6d8.dq14j/package.json'
+196 verbose enoent This is related to npm not being able to find a file.
+197 warn apm-install-dir-120411-16268-10xd6d8.dq14j No description
+198 warn apm-install-dir-120411-16268-10xd6d8.dq14j No repository field.
+199 warn apm-install-dir-120411-16268-10xd6d8.dq14j No README data
+200 warn apm-install-dir-120411-16268-10xd6d8.dq14j No license field.
+201 verbose stack Error: tree-sitter-dune@0.15.0 install: `node-gyp rebuild`
+201 verbose stack Exit status 1
+201 verbose stack     at EventEmitter.<anonymous> (/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/npm-lifecycle/index.js:304:16)
+201 verbose stack     at EventEmitter.emit (events.js:182:13)
+201 verbose stack     at ChildProcess.<anonymous> (/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+201 verbose stack     at ChildProcess.emit (events.js:182:13)
+201 verbose stack     at maybeClose (internal/child_process.js:961:16)
+201 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:248:5)
+202 verbose pkgid tree-sitter-dune@0.15.0
+203 verbose cwd /tmp/apm-install-dir-120411-16268-10xd6d8.dq14j
+204 verbose Linux 4.15.0-54-generic
+205 verbose argv "/usr/share/atom/resources/app/apm/bin/node" "/usr/share/atom/resources/app/apm/node_modules/npm/bin/npm-cli.js" "--globalconfig" "/home/ah257962/.atom/.apm/.apmrc" "--userconfig" "/home/ah257962/.atom/.apmrc" "install" "https://www.atom.io/api/packages/language-ocaml-fix/versions/3.4.1/tarball" "--target=3.1.10" "--disturl=https://atom.io/download/electron" "--arch=x64" "--global-style"
+206 verbose node v10.2.1
+207 verbose npm  v6.2.0
+208 error code ELIFECYCLE
+209 error errno 1
+210 error tree-sitter-dune@0.15.0 install: `node-gyp rebuild`
+210 error Exit status 1
+211 error Failed at the tree-sitter-dune@0.15.0 install script.
+211 error This is probably not a problem with npm. There is likely additional logging output above.
+212 verbose exit [ 1, true ]

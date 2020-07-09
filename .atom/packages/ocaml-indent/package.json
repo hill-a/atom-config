@@ -1,0 +1,80 @@
+{
+  "_from": "https://www.atom.io/api/packages/ocaml-indent/versions/0.7.1/tarball",
+  "_id": "ocaml-indent@0.7.1",
+  "_inBundle": false,
+  "_integrity": "sha512-gv401MDvlEoVc15y8s6mC83VCFMVOQTla3cN8TwmCtVExGgNFzUEovgpjOt6cMJZGAei0ULdKzjVA1PWaO3bZw==",
+  "_location": "/ocaml-indent",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/ocaml-indent/versions/0.7.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/ocaml-indent/versions/0.7.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/ocaml-indent/versions/0.7.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/ocaml-indent/versions/0.7.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/ocaml-indent/versions/0.7.1/tarball",
+  "_shasum": "b09020061f7a05b7a9d6d59feba46ee4138d6be6",
+  "_spec": "https://www.atom.io/api/packages/ocaml-indent/versions/0.7.1/tarball",
+  "_where": "/tmp/apm-install-dir-120411-14921-141t5qh.1nycg",
+  "activationHooks": [
+    "language-ocaml:grammar-used",
+    "language-ocaml-fix:grammar-used"
+  ],
+  "bugs": {
+    "url": "https://github.com/atom-ocaml/ocaml-indent/issues"
+  },
+  "bundleDependencies": false,
+  "configSchema": {
+    "ocpIndentPath": {
+      "title": "Path to ocp-indent",
+      "type": "string",
+      "default": "ocp-indent",
+      "order": 1
+    },
+    "ocpIndentArgs": {
+      "title": "Command line arguments for ocp-indent",
+      "type": "array",
+      "default": [],
+      "order": 2,
+      "items": {
+        "type": "string"
+      }
+    },
+    "indentOnSave": {
+      "title": "Indent On Save",
+      "type": "boolean",
+      "default": false,
+      "order": 3
+    }
+  },
+  "deprecated": false,
+  "description": "Auto-indent ocaml",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/atom-ocaml/ocaml-indent#readme",
+  "keywords": [
+    "ocaml",
+    "indent",
+    "ocp-indent"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "ocaml-indent",
+  "providedServices": {
+    "ocamlIndent": {
+      "versions": {
+        "0.3.0": "provideIndent"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom-ocaml/ocaml-indent.git"
+  },
+  "version": "0.7.1"
+}

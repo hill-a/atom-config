@@ -1,0 +1,31 @@
+@import "ui-variables";
+
+.highlight.ocaml-merlin .region {
+  border-bottom: 1px solid @background-color-info;
+}
+
+atom-overlay.ocaml-merlin {
+  z-index: 100;
+}
+
+.ocaml-merlin-type {
+  background-color: @overlay-background-color;
+  border-left: 0.5rem solid @overlay-border-color;
+  border-radius: @component-border-radius;
+  box-shadow: 2px 2px 2px darken(@overlay-background-color, 5%);
+
+  atom-text-editor {
+    box-sizing: content-box;
+    padding: 0.75rem !important;
+    box-shadow: none !important;
+    border: none !important;
+    font-size: inherit !important;
+    background-color: @overlay-background-color !important;
+    max-height: none !important;
+    height: auto !important;
+  }
+
+  .cursors {
+    display: none;
+  }
+}

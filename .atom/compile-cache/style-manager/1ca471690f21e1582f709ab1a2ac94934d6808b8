@@ -1,0 +1,1 @@
+{"source":"body:not(.fullscreen) .atom-clock.fullscreen-hide {\n  display: none !important;\n}\n"}

@@ -1,0 +1,416 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.split-view {
+  width: 100%;
+  height: 100%;
+
+  .left {
+    float: left;
+    width: 100px;
+    height : 100%;
+  }
+
+  .right {
+    margin-left: 103px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .divider {
+    float: left;
+    background-color: @pane-item-border-color;
+    width: 3px;
+    height: 100%;
+    cursor: col-resize;
+  }
+}
+
+.process-palette {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background: @tool-panel-background-color;
+
+  .main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    // height: 100%;
+
+    .projects-list {
+      /* Ensure that it doesn't overlap with the buttons in the top right. */
+      max-width: calc(~'100% - 20em');
+    }
+
+    .output-view {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .button-group {
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+    right: 16px;
+    z-index: 30;
+    text-align: center;
+  }
+
+  .help {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    background: @tool-panel-background-color;
+
+    .header {
+      margin-top: 6px;
+      padding: 0;
+      // text-align: center;
+    }
+
+    .content {
+      align-self: center;
+      margin-top: 1em;
+      // margin-left: 100px;
+      // margin-right: 100px;
+      margin-bottom: 1em;
+      font-size: larger;
+      line-height: 175%;
+    }
+  }
+}
+
+.process-list {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  // background: @tool-panel-background-color;
+  padding-left: 1em;
+  padding-right: 3em;
+}
+
+.process-toolbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
+.process-list-item {
+  padding: 2px;
+  // background: @tool-panel-background-color;
+
+  table {
+    width: 100%;
+  }
+
+  .header {
+    color: @text-color-info;
+    font-size: 115%;
+
+    .keystroke {
+      color: @text-color;
+    }
+  }
+
+  .table-title {
+    font-weight: 800;
+    padding-right: 24px;
+    color: @text-color-highlight;
+    white-space: nowrap;
+    width: 7em;
+  }
+
+  .table-value {
+    // width: 50%;
+  }
+
+  .table-button {
+    // width: 50%;
+    padding-left: 5px;
+  }
+
+  .table-none {
+    // width: 50%;
+  }
+
+  .insert-button {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-left: 0.5em;
+    // vertical-align: text-top;
+  }
+
+  .command-editor {
+    width: 100%;
+    box-shadow: none;
+    border-radius: 0;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    font-size: inherit;
+    border: 1px solid @input-border-color;
+    background-color: @input-background-color;
+  }
+}
+
+.output-panel {
+  flex: 1;
+  overflow: auto;
+  white-space: pre;
+  background-color: black;
+  color: white;
+  font-family: Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+}
+
+.path-view {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.hand-cursor {
+  cursor: pointer;
+}
+
+.command-edit-view {
+  // overflow: auto;
+  width: 100%;
+  height: 100%;
+  background-color: @tool-panel-background-color;
+
+  .variable-button {
+    padding-left: 0px;
+    // position: relative;
+    // vertical-align: middle;
+    // float: right;
+  }
+
+  .first-column {
+    padding-left: 20px;
+  }
+
+  .top-label {
+    vertical-align: top;
+  }
+
+  .th {
+    text-align: center;
+  }
+
+  .multi-line-editor {
+    border: 1px solid @input-border-color;
+    background-color: @input-background-color;
+    min-height: 4.5em;
+  }
+
+  .bordered {
+    // border: 1px solid @tool-panel-border-color;
+  }
+
+  .check-label {
+    padding-left: 10px;
+  }
+
+  table {
+    width: 80%;
+    font-size: larger;
+  }
+
+  td {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 5px;
+  }
+
+}
+
+.pattern-choose-view {
+
+  .pattern-button {
+    margin-right: 10px;
+  }
+
+  .pattern-name {
+    padding-left: 10px;
+  }
+
+  .pattern-expression {
+    padding-left: 10px;
+  }
+}
+
+.pattern-edit-view {
+  .header {
+    text-align: center;
+  }
+}
+
+.table-edit-view {
+  border: 1px solid @tool-panel-border-color;
+
+  table {
+    width: 100%;
+    height: 100%;
+    font-size: inherit;
+  }
+
+  th {
+    text-align: center;
+  }
+
+  td {
+    padding-top: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 0px;
+  }
+
+  .table-view {
+    // border: 1px solid @tool-panel-border-color;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+  }
+
+  .button-view {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+}
+
+.main-edit-view {
+  // overflow: auto;
+  width: 100%;
+  height: 100%;
+  background-color: @tool-panel-background-color;
+
+  .pointer {
+    cursor: pointer;
+  }
+
+  .left-view {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+
+    .title {
+      vertical-align: middle;
+      font-size: larger;
+    }
+
+    .reload-button {
+      float: right;
+    }
+  }
+
+  .right-view {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  // .left-view {
+  //   width: 15%;
+  //   height: 100%;
+  //   min-width: 150px;
+  //   display: inline-block;
+  //   border-right: 1px solid @tool-panel-border-color;
+  // }
+  //
+  // .right-view {
+  //   width: 85%;
+  //   height: 100%;
+  //   overflow: auto;
+  //   position: absolute;
+  //   display: inline-block;
+  // }
+
+  .add-command-button-view {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .edit-patterns-button {
+    width: 100%;
+  }
+
+  .command-choose-view {
+    padding: 5px;
+
+    .item-view {
+      .name-label {
+        width: 100%;
+        padding-left: 5px;
+        vertical-align: middle;
+        display: inline-block;;
+      }
+
+      .name-label:hover {
+        color: @text-color-highlight;
+      }
+
+      .highlighted {
+        color: @text-color-highlight;
+      }
+    }
+
+  }
+
+}
+
+.process-output-view {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.btn-fw {
+  min-width: 2em;
+}
+
+.project-view {
+  margin: 1px;
+  padding-left: 0.5em;
+  // padding: 3px 3px 0 3px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: @pane-item-border-color;
+  border-radius: 4px;
+  background-color: @pane-item-background-color;
+
+  .project-heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .name {
+      flex: 1;
+      color: @text-color-highlight;
+      font-size: 1.2em;
+      padding-left: 3px;
+    }
+
+    .btn {
+      margin: 3px;
+    }
+  }
+
+  .project-heading:hover {
+    color: @text-color-highlight;
+  }
+
+}

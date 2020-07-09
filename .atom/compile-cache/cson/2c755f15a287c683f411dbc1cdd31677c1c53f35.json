@@ -1,0 +1,1 @@
+{"menu":[{"label":"Packages","submenu":[{"label":"Clang Format","submenu":[{"label":"Format","command":"clang-format:format"}]}]}]}

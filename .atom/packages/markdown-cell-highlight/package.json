@@ -1,0 +1,75 @@
+{
+  "_from": "https://www.atom.io/api/packages/markdown-cell-highlight/versions/1.2.0/tarball",
+  "_id": "markdown-cell-highlight@1.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-64dvmiYjpzJw0ArfRUNh8G3spY2yJnQlUTrm05/laMTbinS8PViXyCHFMa72zL5b9EfVSct9ogoPamGXc/CyvQ==",
+  "_location": "/markdown-cell-highlight",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/markdown-cell-highlight/versions/1.2.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/markdown-cell-highlight/versions/1.2.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/markdown-cell-highlight/versions/1.2.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/markdown-cell-highlight/versions/1.2.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/markdown-cell-highlight/versions/1.2.0/tarball",
+  "_shasum": "dacdfdeed4c1002711866fb1810a8cd16dab50b9",
+  "_spec": "https://www.atom.io/api/packages/markdown-cell-highlight/versions/1.2.0/tarball",
+  "_where": "/tmp/apm-install-dir-12069-19491-11pvseu.t0ki",
+  "bugs": {
+    "url": "https://github.com/aviatesk/atom-markdown-cell-highlight/issues"
+  },
+  "bundleDependencies": false,
+  "configSchema": {
+    "targetScopes": {
+      "title": "Target Scopes",
+      "type": "array",
+      "default": [
+        "source.embedded",
+        "text.embedded"
+      ],
+      "description": "If specified, this package will highlight code cells with the specified languages scopes. By default (i.e. `[\"source.embedded\", \"text.embedded\"]`), it will highlight _every_ code cell even without language scope. E.g.: if you _only_ want to highlight Julia code cells, you can modify this config into `[\"source.embedded.julia\"]`.",
+      "order": 1
+    },
+    "markdownScopes": {
+      "title": "Markdown Scopes",
+      "type": "array",
+      "default": [
+        "text.md",
+        "source.gfm",
+        "source.weave.md",
+        "source.pweave.md"
+      ],
+      "description": "Specifies grammar scopes that this package will consider as markdown files and try to highlight code cells.",
+      "order": 2
+    }
+  },
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Highlight markdown code cells",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/aviatesk/atom-markdown-cell-highlight#readme",
+  "keywords": [
+    "markdown",
+    "code",
+    "cell",
+    "Hydrogen",
+    "Juno",
+    "Weave",
+    "pweave"
+  ],
+  "license": "MIT",
+  "main": "./main",
+  "name": "markdown-cell-highlight",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aviatesk/atom-markdown-cell-highlight.git"
+  },
+  "version": "1.2.0"
+}
