@@ -4,7 +4,7 @@
   'cmd-shift-right': 'platformio-ide-terminal:next'
   'cmd-shift-x': 'platformio-ide-terminal:close'
   'cmd-alt-f': 'platformio-ide-terminal:focus'
-  'ctrl-`': 'platformio-ide-terminal:toggle'
+  'ctrl-<': 'platformio-ide-terminal:toggle'
   'ctrl-alt-enter': 'platformio-ide-terminal:insert-selected-text'
 
 '.platform-linux atom-workspace, .platform-win32 atom-workspace':
@@ -13,7 +13,7 @@
   'alt-shift-right': 'platformio-ide-terminal:next'
   'alt-shift-x': 'platformio-ide-terminal:close'
   'ctrl-enter': 'platformio-ide-terminal:insert-selected-text'
-  'ctrl-`': 'platformio-ide-terminal:toggle'
+  'ctrl-<': 'platformio-ide-terminal:toggle'
   'ctrl-alt-f': 'platformio-ide-terminal:focus'
 
 '.platform-darwin .platformio-ide-terminal .terminal':
